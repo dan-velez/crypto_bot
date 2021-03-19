@@ -1,0 +1,2946 @@
+[
+    {
+        "symbol": "NOVN",
+        "buy_price": 0.575,
+        "sell_price": 0.61,
+        "gain %": 5.5
+    },
+    {
+        "symbol": "PER",
+        "buy_price": 0.53,
+        "sell_price": 0.515,
+        "gain %": -2.8301886792452855
+    },
+    {
+        "symbol": "BIOC",
+        "buy_price": 0.7013,
+        "sell_price": 0.7425,
+        "gain %": 5.874803935548269
+    },
+    {
+        "symbol": "SUNW",
+        "buy_price": 0.5751,
+        "sell_price": 0.56,
+        "gain %": -2.625630325160823
+    },
+    {
+        "symbol": "CPHI",
+        "buy_price": 0.66,
+        "sell_price": 0.6267,
+        "gain %": -5.045454545454545
+    },
+    {
+        "symbol": "SXTC",
+        "buy_price": 0.49,
+        "sell_price": 0.4785,
+        "gain %": -2.346938775510206
+    },
+    {
+        "symbol": "ACST",
+        "buy_price": 0.8,
+        "sell_price": 0.7798,
+        "gain %": -2.5249999999999995
+    },
+    {
+        "symbol": "NBRV",
+        "buy_price": 0.95,
+        "sell_price": 0.9229,
+        "gain %": -2.852631578947358
+    },
+    {
+        "symbol": "RTW",
+        "buy_price": 0.3089,
+        "sell_price": 0.3001,
+        "gain %": -2.8488183878277855
+    },
+    {
+        "symbol": "AFH",
+        "buy_price": 0.435,
+        "sell_price": 0.4356,
+        "gain %": 0.13793103448275618
+    },
+    {
+        "symbol": "CHFS",
+        "buy_price": 0.496,
+        "sell_price": 0.5079,
+        "gain %": 2.399193548387101
+    },
+    {
+        "symbol": "PACD",
+        "buy_price": 0.5958,
+        "sell_price": 0.6086,
+        "gain %": 2.14837193689158
+    },
+    {
+        "symbol": "FET",
+        "buy_price": 0.7046,
+        "sell_price": 0.7211,
+        "gain %": 2.341754186772631
+    },
+    {
+        "symbol": "NCTY",
+        "buy_price": 0.85,
+        "sell_price": 0.85,
+        "gain %": 0.0
+    },
+    {
+        "symbol": "HGSH",
+        "buy_price": 1.31,
+        "sell_price": 1.29,
+        "gain %": -1.5267175572519098
+    },
+    {
+        "symbol": "ROSEU",
+        "buy_price": 0.9,
+        "sell_price": 0.92,
+        "gain %": 2.222222222222224
+    },
+    {
+        "symbol": "ROSE",
+        "buy_price": 0.66,
+        "sell_price": 0.6883,
+        "gain %": 4.287878787878786
+    },
+    {
+        "symbol": "AGE",
+        "buy_price": 0.8305,
+        "sell_price": 0.83,
+        "gain %": -0.060204695966292104
+    },
+    {
+        "symbol": "ENSV",
+        "buy_price": 0.214,
+        "sell_price": 0.2171,
+        "gain %": 1.4485981308411178
+    },
+    {
+        "symbol": "JOB",
+        "buy_price": 0.51,
+        "sell_price": 0.504,
+        "gain %": -1.176470588235295
+    },
+    {
+        "symbol": "LKCO",
+        "buy_price": 0.6398,
+        "sell_price": 0.65,
+        "gain %": 1.594248202563299
+    },
+    {
+        "symbol": "MYT",
+        "buy_price": 0.83,
+        "sell_price": 0.84,
+        "gain %": 1.204819277108435
+    },
+    {
+        "symbol": "ALTM",
+        "buy_price": 0.83,
+        "sell_price": 0.891,
+        "gain %": 7.349397590361454
+    },
+    {
+        "symbol": "ALTM",
+        "buy_price": 0.9745,
+        "sell_price": 0.8835,
+        "gain %": -9.338122113904575
+    },
+    {
+        "symbol": "AXAS",
+        "buy_price": 0.3242,
+        "sell_price": 0.307,
+        "gain %": -5.305367057371991
+    },
+    {
+        "symbol": "LLEX",
+        "buy_price": 0.254,
+        "sell_price": 0.24,
+        "gain %": -5.511811023622052
+    },
+    {
+        "symbol": "ADMP",
+        "buy_price": 0.6298,
+        "sell_price": 0.639,
+        "gain %": 1.460781200381071
+    },
+    {
+        "symbol": "HTGM",
+        "buy_price": 0.7077,
+        "sell_price": 0.7199,
+        "gain %": 1.7238943054966778
+    },
+    {
+        "symbol": "BOXL",
+        "buy_price": 0.78,
+        "sell_price": 0.789,
+        "gain %": 1.1538461538461549
+    },
+    {
+        "symbol": "STCN",
+        "buy_price": 0.66,
+        "sell_price": 0.67,
+        "gain %": 1.5151515151515165
+    },
+    {
+        "symbol": "HSDT",
+        "buy_price": 0.4884,
+        "sell_price": 0.4998,
+        "gain %": 2.3341523341523387
+    },
+    {
+        "symbol": "AMPE",
+        "buy_price": 0.5193,
+        "sell_price": 0.5275,
+        "gain %": 1.5790487194299991
+    },
+    {
+        "symbol": "BGI",
+        "buy_price": 1.08,
+        "sell_price": 1.1,
+        "gain %": 1.8518518518518534
+    },
+    {
+        "symbol": "AIKI",
+        "buy_price": 0.77,
+        "sell_price": 0.779,
+        "gain %": 1.1688311688311699
+    },
+    {
+        "symbol": "NOVN",
+        "buy_price": 0.6479,
+        "sell_price": 0.6549,
+        "gain %": 1.0804136440808776
+    },
+    {
+        "symbol": "JAGX",
+        "buy_price": 0.548,
+        "sell_price": 0.555,
+        "gain %": 1.2773722627737236
+    },
+    {
+        "symbol": "LONE",
+        "buy_price": 0.88,
+        "sell_price": 0.8999,
+        "gain %": 2.2613636363636394
+    },
+    {
+        "symbol": "MYT",
+        "buy_price": 0.8899,
+        "sell_price": 0.9,
+        "gain %": 1.1349589841555228
+    },
+    {
+        "symbol": "SYN",
+        "buy_price": 0.435,
+        "sell_price": 0.4482,
+        "gain %": 3.0344827586206873
+    },
+    {
+        "symbol": "XELA",
+        "buy_price": 0.504,
+        "sell_price": 0.4751,
+        "gain %": -5.734126984126981
+    },
+    {
+        "symbol": "GHSI",
+        "buy_price": 0.4787,
+        "sell_price": 0.494,
+        "gain %": 3.1961562565280923
+    },
+    {
+        "symbol": "TEUM",
+        "buy_price": 0.7489,
+        "sell_price": 0.7827,
+        "gain %": 4.513286153024429
+    },
+    {
+        "symbol": "HUSA",
+        "buy_price": 0.166,
+        "sell_price": 0.1569,
+        "gain %": -5.4819277108433715
+    },
+    {
+        "symbol": "NEOS",
+        "buy_price": 0.8053,
+        "sell_price": 0.814,
+        "gain %": 1.0803427294175998
+    },
+    {
+        "symbol": "NCTY",
+        "buy_price": 0.89,
+        "sell_price": 0.95,
+        "gain %": 6.741573033707858
+    },
+    {
+        "symbol": "MYT",
+        "buy_price": 0.95,
+        "sell_price": 0.99,
+        "gain %": 4.210526315789478
+    },
+    {
+        "symbol": "STON",
+        "buy_price": 0.92,
+        "sell_price": 0.9299,
+        "gain %": 1.0760869565217293
+    },
+    {
+        "symbol": "TAT",
+        "buy_price": 0.3301,
+        "sell_price": 0.312,
+        "gain %": -5.483186913056651
+    },
+    {
+        "symbol": "ROSEU",
+        "buy_price": 1.0,
+        "sell_price": 0.9,
+        "gain %": -9.999999999999998
+    },
+    {
+        "symbol": "TEUM",
+        "buy_price": 0.8188,
+        "sell_price": 0.83,
+        "gain %": 1.3678553981436234
+    },
+    {
+        "symbol": "BGI",
+        "buy_price": 1.19,
+        "sell_price": 1.07,
+        "gain %": -10.084033613445369
+    },
+    {
+        "symbol": "HGSH",
+        "buy_price": 1.39,
+        "sell_price": 1.32,
+        "gain %": -5.035971223021572
+    },
+    {
+        "symbol": "MYT",
+        "buy_price": 1.21,
+        "sell_price": 1.29,
+        "gain %": 6.61157024793389
+    },
+    {
+        "symbol": "NCTY",
+        "buy_price": 1.05,
+        "sell_price": 1.1,
+        "gain %": 4.761904761904765
+    },
+    {
+        "symbol": "NOVN",
+        "buy_price": 0.689,
+        "sell_price": 0.697,
+        "gain %": 1.1611030478955018
+    },
+    {
+        "symbol": "MYT",
+        "buy_price": 1.4,
+        "sell_price": 1.43,
+        "gain %": 2.142857142857145
+    },
+    {
+        "symbol": "TRXC",
+        "buy_price": 0.725,
+        "sell_price": 0.6882,
+        "gain %": -5.07586206896551
+    },
+    {
+        "symbol": "KTOV",
+        "buy_price": 0.4798,
+        "sell_price": 0.488,
+        "gain %": 1.7090454355981628
+    },
+    {
+        "symbol": "JE",
+        "buy_price": 0.6041,
+        "sell_price": 0.6154,
+        "gain %": 1.8705512332395262
+    },
+    {
+        "symbol": "GSV",
+        "buy_price": 0.71,
+        "sell_price": 0.73,
+        "gain %": 2.8169014084507067
+    },
+    {
+        "symbol": "SINT",
+        "buy_price": 0.7948,
+        "sell_price": 0.82,
+        "gain %": 3.170608958228485
+    },
+    {
+        "symbol": "DXYN",
+        "buy_price": 0.8198,
+        "sell_price": 0.94,
+        "gain %": 14.662112710417171
+    },
+    {
+        "symbol": "ECT",
+        "buy_price": 0.53,
+        "sell_price": 0.5499,
+        "gain %": 3.7547169811320806
+    },
+    {
+        "symbol": "AMTX",
+        "buy_price": 0.85,
+        "sell_price": 0.86,
+        "gain %": 1.176470588235295
+    },
+    {
+        "symbol": "NCTY",
+        "buy_price": 1.23,
+        "sell_price": 1.3,
+        "gain %": 5.691056910569111
+    },
+    {
+        "symbol": "SNMP",
+        "buy_price": 0.427,
+        "sell_price": 0.4038,
+        "gain %": -5.433255269320843
+    },
+    {
+        "symbol": "URG",
+        "buy_price": 0.5234,
+        "sell_price": 0.5326,
+        "gain %": 1.7577378677875404
+    },
+    {
+        "symbol": "ROSEU",
+        "buy_price": 0.98,
+        "sell_price": 1.16,
+        "gain %": 18.3673469387755
+    },
+    {
+        "symbol": "NMCI",
+        "buy_price": 0.819,
+        "sell_price": 0.8386,
+        "gain %": 2.393162393162401
+    },
+    {
+        "symbol": "NOVN",
+        "buy_price": 0.748,
+        "sell_price": 0.76,
+        "gain %": 1.6042780748663117
+    },
+    {
+        "symbol": "PDS",
+        "buy_price": 0.8289,
+        "sell_price": 0.84,
+        "gain %": 1.339124140427072
+    },
+    {
+        "symbol": "NCTY",
+        "buy_price": 1.45,
+        "sell_price": 1.37,
+        "gain %": -5.5172413793103345
+    },
+    {
+        "symbol": "TRX",
+        "buy_price": 0.7828,
+        "sell_price": 0.8,
+        "gain %": 2.197240674501787
+    },
+    {
+        "symbol": "LLEX",
+        "buy_price": 0.26,
+        "sell_price": 0.265,
+        "gain %": 1.9230769230769247
+    },
+    {
+        "symbol": "SYPR",
+        "buy_price": 0.8,
+        "sell_price": 0.8858,
+        "gain %": 10.724999999999998
+    },
+    {
+        "symbol": "OPTT",
+        "buy_price": 0.5333,
+        "sell_price": 0.54,
+        "gain %": 1.2563285205325407
+    },
+    {
+        "symbol": "HCR",
+        "buy_price": 0.3539,
+        "sell_price": 0.36,
+        "gain %": 1.7236507487990942
+    },
+    {
+        "symbol": "CHEK",
+        "buy_price": 0.5656,
+        "sell_price": 0.5727,
+        "gain %": 1.2553041018387545
+    },
+    {
+        "symbol": "AUMN",
+        "buy_price": 0.3698,
+        "sell_price": 0.38,
+        "gain %": 2.7582477014602453
+    },
+    {
+        "symbol": "TAT",
+        "buy_price": 0.3333,
+        "sell_price": 0.3447,
+        "gain %": 3.4203420342034265
+    },
+    {
+        "symbol": "DSE",
+        "buy_price": 0.636,
+        "sell_price": 0.69,
+        "gain %": 8.490566037735839,
+        "time": "2020-06-16 09:21:43.294409"
+    },
+    {
+        "symbol": "ACHV",
+        "buy_price": 0.429,
+        "sell_price": 0.4399,
+        "gain %": 2.5407925407925456,
+        "time": "2020-06-16 09:21:46.668158"
+    },
+    {
+        "symbol": "LKCO",
+        "buy_price": 0.6898,
+        "sell_price": 0.65,
+        "gain %": -5.769788344447659,
+        "time": "2020-06-16 09:21:50.377248"
+    },
+    {
+        "symbol": "XELA",
+        "buy_price": 0.5699,
+        "sell_price": 0.595,
+        "gain %": 4.404281452886473,
+        "time": "2020-06-16 09:21:59.428396"
+    },
+    {
+        "symbol": "UAMY",
+        "buy_price": 0.5,
+        "sell_price": 0.4621,
+        "gain %": -7.579999999999998,
+        "time": "2020-06-16 09:22:06.439799"
+    },
+    {
+        "symbol": "PACD",
+        "buy_price": 0.7,
+        "sell_price": 0.715,
+        "gain %": 2.142857142857145,
+        "time": "2020-06-16 09:22:11.685855"
+    },
+    {
+        "symbol": "HTBX",
+        "buy_price": 0.7871,
+        "sell_price": 0.8084,
+        "gain %": 2.706136450260448,
+        "time": "2020-06-16 09:23:54.322104"
+    },
+    {
+        "symbol": "WYY",
+        "buy_price": 0.6499,
+        "sell_price": 0.67,
+        "gain %": 3.09278350515464,
+        "time": "2020-06-16 09:23:57.651690"
+    },
+    {
+        "symbol": "OPTT",
+        "buy_price": 0.58,
+        "sell_price": 0.54,
+        "gain %": -6.896551724137918,
+        "time": "2020-06-16 09:24:07.021683"
+    },
+    {
+        "symbol": "SQBG",
+        "buy_price": 0.349,
+        "sell_price": 0.3599,
+        "gain %": 3.1232091690544475,
+        "time": "2020-06-16 09:24:11.701105"
+    },
+    {
+        "symbol": "TAT",
+        "buy_price": 0.35,
+        "sell_price": 0.36,
+        "gain %": 2.85714285714286,
+        "time": "2020-06-16 09:24:15.450040"
+    },
+    {
+        "symbol": "VTGN",
+        "buy_price": 0.57,
+        "sell_price": 0.5386,
+        "gain %": -5.508771929824559,
+        "time": "2020-06-16 09:24:20.038558"
+    },
+    {
+        "symbol": "FET",
+        "buy_price": 0.77,
+        "sell_price": 0.78,
+        "gain %": 1.2987012987012998,
+        "time": "2020-06-16 09:24:24.891998"
+    },
+    {
+        "symbol": "ROSEU",
+        "buy_price": 6.47,
+        "sell_price": 5.97,
+        "gain %": -7.727975270479134,
+        "time": "2020-06-16 09:26:17.386653"
+    },
+    {
+        "symbol": "GTE",
+        "buy_price": 0.484,
+        "sell_price": 0.4899,
+        "gain %": 1.2190082644628133,
+        "time": "2020-06-16 09:28:03.391146"
+    },
+    {
+        "symbol": "TTI",
+        "buy_price": 0.5198,
+        "sell_price": 0.525,
+        "gain %": 1.0003847633705236,
+        "time": "2020-06-16 09:28:07.367130"
+    },
+    {
+        "symbol": "TGA",
+        "buy_price": 0.6394,
+        "sell_price": 0.65,
+        "gain %": 1.6578041914294734,
+        "time": "2020-06-16 09:30:05.682223"
+    },
+    {
+        "symbol": "NCSM",
+        "buy_price": 0.77,
+        "sell_price": 0.65,
+        "gain %": -15.584415584415584,
+        "time": "2020-06-16 09:30:09.158483"
+    },
+    {
+        "symbol": "MSN",
+        "buy_price": 0.8274,
+        "sell_price": 0.8,
+        "gain %": -3.3115784384819893,
+        "time": "2020-06-16 09:30:12.845203"
+    },
+    {
+        "symbol": "ALTM",
+        "buy_price": 0.9858,
+        "sell_price": 0.8902,
+        "gain %": -9.697707445729359,
+        "time": "2020-06-16 09:30:17.193473"
+    },
+    {
+        "symbol": "NOVN",
+        "buy_price": 0.82,
+        "sell_price": 0.765,
+        "gain %": -6.707317073170725,
+        "time": "2020-06-16 09:30:20.498859"
+    },
+    {
+        "symbol": "TGEN",
+        "buy_price": 0.81,
+        "sell_price": 0.74,
+        "gain %": -8.641975308641982,
+        "time": "2020-06-16 09:30:24.295856"
+    },
+    {
+        "symbol": "AGE",
+        "buy_price": 0.92,
+        "sell_price": 0.93,
+        "gain %": 1.0869565217391313,
+        "time": "2020-06-16 09:30:27.601941"
+    },
+    {
+        "symbol": "HCR",
+        "buy_price": 0.39,
+        "sell_price": 0.36,
+        "gain %": -7.692307692307699,
+        "time": "2020-06-16 09:30:30.938460"
+    },
+    {
+        "symbol": "GSV",
+        "buy_price": 0.79,
+        "sell_price": 0.7209,
+        "gain %": -8.74683544303798,
+        "time": "2020-06-16 09:30:34.166446"
+    },
+    {
+        "symbol": "LLEX",
+        "buy_price": 0.268,
+        "sell_price": 0.2709,
+        "gain %": 1.0820895522387903,
+        "time": "2020-06-16 09:30:37.440043"
+    },
+    {
+        "symbol": "TTNP",
+        "buy_price": 0.3597,
+        "sell_price": 0.3659,
+        "gain %": 1.7236586043925444,
+        "time": "2020-06-16 09:30:40.729031"
+    },
+    {
+        "symbol": "HPR",
+        "buy_price": 0.51,
+        "sell_price": 0.48,
+        "gain %": -5.8823529411764754,
+        "time": "2020-06-16 09:30:43.995046"
+    },
+    {
+        "symbol": "JE",
+        "buy_price": 0.64,
+        "sell_price": 0.6497,
+        "gain %": 1.5156250000000067,
+        "time": "2020-06-16 09:30:47.601837"
+    },
+    {
+        "symbol": "JILL",
+        "buy_price": 1.12,
+        "sell_price": 1.03,
+        "gain %": -8.035714285714292,
+        "time": "2020-06-16 09:30:51.378557"
+    },
+    {
+        "symbol": "CLIR",
+        "buy_price": 1.55,
+        "sell_price": 1.62,
+        "gain %": 4.5161290322580685,
+        "time": "2020-06-16 09:30:54.543643"
+    },
+    {
+        "symbol": "DLPN",
+        "buy_price": 0.95,
+        "sell_price": 0.9,
+        "gain %": -5.263157894736835,
+        "time": "2020-06-16 09:30:58.091692"
+    },
+    {
+        "symbol": "IHT",
+        "buy_price": 0.95,
+        "sell_price": 0.99,
+        "gain %": 4.210526315789478,
+        "time": "2020-06-16 09:31:01.473204"
+    },
+    {
+        "symbol": "NBRV",
+        "buy_price": 0.96,
+        "sell_price": 0.9749,
+        "gain %": 1.552083333333336,
+        "time": "2020-06-16 09:31:05.192834"
+    },
+    {
+        "symbol": "AHT",
+        "buy_price": 1.03,
+        "sell_price": 1.07,
+        "gain %": 3.883495145631071,
+        "time": "2020-06-16 09:31:08.661692"
+    },
+    {
+        "symbol": "JAKK",
+        "buy_price": 1.08,
+        "sell_price": 1.02,
+        "gain %": -5.55555555555556,
+        "time": "2020-06-16 09:31:13.449080"
+    },
+    {
+        "symbol": "CBAT",
+        "buy_price": 0.69,
+        "sell_price": 0.65,
+        "gain %": -5.797101449275352,
+        "time": "2020-06-16 09:31:16.706983"
+    },
+    {
+        "symbol": "PFIE",
+        "buy_price": 1.2,
+        "sell_price": 1.09,
+        "gain %": -9.166666666666657,
+        "time": "2020-06-16 09:31:21.011762"
+    },
+    {
+        "symbol": "KIQ",
+        "buy_price": 0.7,
+        "sell_price": 0.6318,
+        "gain %": -9.742857142857133,
+        "time": "2020-06-16 09:32:46.641891"
+    },
+    {
+        "symbol": "ROSE",
+        "buy_price": 0.79,
+        "sell_price": 1.27,
+        "gain %": 60.759493670886066,
+        "time": "2020-06-16 09:32:51.422209"
+    },
+    {
+        "symbol": "WRN",
+        "buy_price": 1.5,
+        "sell_price": 0.8409,
+        "gain %": -43.94,
+        "time": "2020-06-16 09:32:55.012231"
+    },
+    {
+        "symbol": "TGC",
+        "buy_price": 0.7,
+        "sell_price": 0.608,
+        "gain %": -13.142857142857139,
+        "time": "2020-06-16 09:32:58.356684"
+    },
+    {
+        "symbol": "CBL",
+        "buy_price": 0.32,
+        "sell_price": 0.3499,
+        "gain %": 9.343749999999993,
+        "time": "2020-06-16 09:33:01.958803"
+    },
+    {
+        "symbol": "TRCH",
+        "buy_price": 0.426,
+        "sell_price": 0.4399,
+        "gain %": 3.2629107981220713,
+        "time": "2020-06-16 09:33:05.798423"
+    },
+    {
+        "symbol": "XOG",
+        "buy_price": 0.6899,
+        "sell_price": 0.6297,
+        "gain %": -8.725902304681826,
+        "time": "2020-06-16 09:33:10.395055"
+    },
+    {
+        "symbol": "TYHT",
+        "buy_price": 0.645,
+        "sell_price": 0.6001,
+        "gain %": -6.961240310077526,
+        "time": "2020-06-16 09:33:13.647444"
+    },
+    {
+        "symbol": "HX",
+        "buy_price": 0.76,
+        "sell_price": 0.82,
+        "gain %": 7.894736842105256,
+        "time": "2020-06-16 09:33:17.543964"
+    },
+    {
+        "symbol": "PED",
+        "buy_price": 1.01,
+        "sell_price": 0.9254,
+        "gain %": -8.376237623762377,
+        "time": "2020-06-16 09:33:20.756977"
+    },
+    {
+        "symbol": "HNRG",
+        "buy_price": 0.965,
+        "sell_price": 0.99,
+        "gain %": 2.5906735751295358,
+        "time": "2020-06-16 09:33:24.099260"
+    },
+    {
+        "symbol": "ELGX",
+        "buy_price": 1.15,
+        "sell_price": 1.09,
+        "gain %": -5.217391304347812,
+        "time": "2020-06-16 09:33:27.562485"
+    },
+    {
+        "symbol": "APWC",
+        "buy_price": 1.21,
+        "sell_price": 1.05,
+        "gain %": -13.223140495867764,
+        "time": "2020-06-16 09:33:30.892869"
+    },
+    {
+        "symbol": "BRN",
+        "buy_price": 0.74,
+        "sell_price": 0.7,
+        "gain %": -5.405405405405411,
+        "time": "2020-06-16 09:33:34.136897"
+    },
+    {
+        "symbol": "MOXC",
+        "buy_price": 1.05,
+        "sell_price": 1.08,
+        "gain %": 2.8571428571428594,
+        "time": "2020-06-16 09:33:38.848992"
+    },
+    {
+        "symbol": "NEOS",
+        "buy_price": 0.875,
+        "sell_price": 0.8899,
+        "gain %": 1.7028571428571455,
+        "time": "2020-06-16 09:35:17.200408"
+    },
+    {
+        "symbol": "USWS",
+        "buy_price": 0.645,
+        "sell_price": 0.655,
+        "gain %": 1.5503875968992262,
+        "time": "2020-06-16 09:35:21.859672"
+    },
+    {
+        "symbol": "LONE",
+        "buy_price": 0.97,
+        "sell_price": 1.04,
+        "gain %": 7.216494845360831,
+        "time": "2020-06-16 09:35:25.445282"
+    },
+    {
+        "symbol": "RTW",
+        "buy_price": 0.3398,
+        "sell_price": 0.3099,
+        "gain %": -8.799293702177746,
+        "time": "2020-06-16 09:35:28.896145"
+    },
+    {
+        "symbol": "SMRT",
+        "buy_price": 0.51,
+        "sell_price": 0.4799,
+        "gain %": -5.9019607843137285,
+        "time": "2020-06-16 09:35:32.304884"
+    },
+    {
+        "symbol": "BTE",
+        "buy_price": 0.56,
+        "sell_price": 0.5287,
+        "gain %": -5.589285714285733,
+        "time": "2020-06-16 09:35:35.794687"
+    },
+    {
+        "symbol": "DXLG",
+        "buy_price": 0.56,
+        "sell_price": 0.597,
+        "gain %": 6.607142857142842,
+        "time": "2020-06-16 09:35:39.565452"
+    },
+    {
+        "symbol": "CVIA",
+        "buy_price": 0.7715,
+        "sell_price": 0.7201,
+        "gain %": -6.662346079066754,
+        "time": "2020-06-16 09:35:43.055715"
+    },
+    {
+        "symbol": "JT",
+        "buy_price": 0.97,
+        "sell_price": 0.91,
+        "gain %": -6.185567010309272,
+        "time": "2020-06-16 09:35:46.399892"
+    },
+    {
+        "symbol": "NAKD",
+        "buy_price": 1.16,
+        "sell_price": 1.06,
+        "gain %": -8.620689655172404,
+        "time": "2020-06-16 09:35:49.749848"
+    },
+    {
+        "symbol": "CCLP",
+        "buy_price": 1.2,
+        "sell_price": 1.08,
+        "gain %": -9.999999999999991,
+        "time": "2020-06-16 09:35:53.909668"
+    },
+    {
+        "symbol": "RIBT",
+        "buy_price": 1.04,
+        "sell_price": 0.98,
+        "gain %": -5.7692307692307745,
+        "time": "2020-06-16 09:35:57.655625"
+    },
+    {
+        "symbol": "ATHE",
+        "buy_price": 0.6,
+        "sell_price": 0.61,
+        "gain %": 1.6666666666666683,
+        "time": "2020-06-16 09:37:34.728816"
+    },
+    {
+        "symbol": "PSHG",
+        "buy_price": 0.7,
+        "sell_price": 0.627,
+        "gain %": -10.428571428571423,
+        "time": "2020-06-16 09:37:40.385474"
+    },
+    {
+        "symbol": "ENSV",
+        "buy_price": 0.2195,
+        "sell_price": 0.2085,
+        "gain %": -5.011389521640096,
+        "time": "2020-06-16 09:37:43.610288"
+    },
+    {
+        "symbol": "AXAS",
+        "buy_price": 0.3499,
+        "sell_price": 0.3301,
+        "gain %": -5.658759645613029,
+        "time": "2020-06-16 09:37:47.219022"
+    },
+    {
+        "symbol": "SDRL",
+        "buy_price": 0.66,
+        "sell_price": 0.6255,
+        "gain %": -5.22727272727274,
+        "time": "2020-06-16 09:37:52.211576"
+    },
+    {
+        "symbol": "CLUB",
+        "buy_price": 0.8999,
+        "sell_price": 0.85,
+        "gain %": -5.5450605622847045,
+        "time": "2020-06-16 09:39:42.724952"
+    },
+    {
+        "symbol": "CHFS",
+        "buy_price": 0.544,
+        "sell_price": 0.559,
+        "gain %": 2.757352941176473,
+        "time": "2020-06-16 09:39:46.768291"
+    },
+    {
+        "symbol": "ISIG",
+        "buy_price": 0.88,
+        "sell_price": 0.82,
+        "gain %": -6.818181818181825,
+        "time": "2020-06-16 09:41:23.755381"
+    },
+    {
+        "symbol": "NE",
+        "buy_price": 0.482,
+        "sell_price": 0.4497,
+        "gain %": -6.7012448132780085,
+        "time": "2020-06-16 09:41:28.590250"
+    },
+    {
+        "symbol": "ROSEU",
+        "buy_price": 6.9,
+        "sell_price": 5.45,
+        "gain %": -21.01449275362319,
+        "time": "2020-06-16 09:41:35.930717"
+    },
+    {
+        "symbol": "NOVN",
+        "buy_price": 0.8381,
+        "sell_price": 0.87,
+        "gain %": 3.806228373702427,
+        "time": "2020-06-16 09:41:40.206076"
+    },
+    {
+        "symbol": "ROYT",
+        "buy_price": 0.4378,
+        "sell_price": 0.415,
+        "gain %": -5.207857469164011,
+        "time": "2020-06-16 09:43:17.352774"
+    },
+    {
+        "symbol": "STON",
+        "buy_price": 1.0,
+        "sell_price": 1.04,
+        "gain %": 4.0000000000000036,
+        "time": "2020-06-16 09:43:24.440732"
+    },
+    {
+        "symbol": "CTRM",
+        "buy_price": 0.76,
+        "sell_price": 0.716,
+        "gain %": -5.789473684210531,
+        "time": "2020-06-16 09:44:57.792599"
+    },
+    {
+        "symbol": "DNR",
+        "buy_price": 0.5247,
+        "sell_price": 0.4964,
+        "gain %": -5.393558223746911,
+        "time": "2020-06-16 09:45:01.452710"
+    },
+    {
+        "symbol": "KXIN",
+        "buy_price": 0.9499,
+        "sell_price": 0.9999,
+        "gain %": 5.263711969681024,
+        "time": "2020-06-16 09:45:05.722929"
+    },
+    {
+        "symbol": "CSU",
+        "buy_price": 1.04,
+        "sell_price": 0.98,
+        "gain %": -5.7692307692307745,
+        "time": "2020-06-16 09:45:08.917684"
+    },
+    {
+        "symbol": "ACOR",
+        "buy_price": 0.92,
+        "sell_price": 0.8722,
+        "gain %": -5.19565217391305,
+        "time": "2020-06-16 09:45:13.017705"
+    },
+    {
+        "symbol": "EYPT",
+        "buy_price": 0.8966,
+        "sell_price": 0.8495,
+        "gain %": -5.253178674994414,
+        "time": "2020-06-16 09:46:47.542829"
+    },
+    {
+        "symbol": "NTEC",
+        "buy_price": 0.3985,
+        "sell_price": 0.375,
+        "gain %": -5.8971141781681355,
+        "time": "2020-06-16 09:46:51.168976"
+    },
+    {
+        "symbol": "ALTM",
+        "buy_price": 0.9799,
+        "sell_price": 0.91,
+        "gain %": -7.133380957240531,
+        "time": "2020-06-16 09:46:57.212583"
+    },
+    {
+        "symbol": "XYF",
+        "buy_price": 1.07,
+        "sell_price": 1.1,
+        "gain %": 2.803738317757012,
+        "time": "2020-06-16 09:48:39.169581"
+    },
+    {
+        "symbol": "TRXC",
+        "buy_price": 0.735,
+        "sell_price": 0.692,
+        "gain %": -5.850340136054427,
+        "time": "2020-06-16 09:50:17.544642"
+    },
+    {
+        "symbol": "URG",
+        "buy_price": 0.559,
+        "sell_price": 0.5303,
+        "gain %": -5.134168157423981,
+        "time": "2020-06-16 09:51:59.442664"
+    },
+    {
+        "symbol": "CHAP",
+        "buy_price": 1.09,
+        "sell_price": 1.02,
+        "gain %": -6.422018348623859,
+        "time": "2020-06-16 09:52:03.413409"
+    },
+    {
+        "symbol": "CLIR",
+        "buy_price": 1.77,
+        "sell_price": 1.79,
+        "gain %": 1.12994350282486,
+        "time": "2020-06-16 09:52:10.284764"
+    },
+    {
+        "symbol": "HJLI",
+        "buy_price": 0.449,
+        "sell_price": 0.4599,
+        "gain %": 2.4276169265033327,
+        "time": "2020-06-16 09:52:13.682634"
+    },
+    {
+        "symbol": "ECOR",
+        "buy_price": 1.04,
+        "sell_price": 0.975,
+        "gain %": -6.250000000000005,
+        "time": "2020-06-16 09:53:51.280526"
+    },
+    {
+        "symbol": "CLIR",
+        "buy_price": 1.94,
+        "sell_price": 1.97,
+        "gain %": 1.546391752577321,
+        "time": "2020-06-16 09:53:57.956806"
+    },
+    {
+        "symbol": "OBLN",
+        "buy_price": 1.05,
+        "sell_price": 1.07,
+        "gain %": 1.9047619047619064,
+        "time": "2020-06-16 09:57:11.836745"
+    },
+    {
+        "symbol": "LMFA",
+        "buy_price": 1.05,
+        "sell_price": 1.08,
+        "gain %": 2.8571428571428594,
+        "time": "2020-06-16 09:57:16.693493"
+    },
+    {
+        "symbol": "CLIR",
+        "buy_price": 2.13,
+        "sell_price": 1.99,
+        "gain %": -6.5727699530516395,
+        "time": "2020-06-16 09:58:56.279237"
+    },
+    {
+        "symbol": "ATNM",
+        "buy_price": 0.4421,
+        "sell_price": 0.4469,
+        "gain %": 1.0857272110382326,
+        "time": "2020-06-16 10:00:35.458895"
+    },
+    {
+        "symbol": "LLIT",
+        "buy_price": 0.67,
+        "sell_price": 0.63,
+        "gain %": -5.970149253731348,
+        "time": "2020-06-16 10:03:54.962025"
+    },
+    {
+        "symbol": "DLPN",
+        "buy_price": 0.97,
+        "sell_price": 0.9898,
+        "gain %": 2.041237113402066,
+        "time": "2020-06-16 10:03:59.717923"
+    },
+    {
+        "symbol": "ALJJ",
+        "buy_price": 0.64,
+        "sell_price": 0.6078,
+        "gain %": -5.031250000000001,
+        "time": "2020-06-16 10:05:38.289552"
+    },
+    {
+        "symbol": "DFFN",
+        "buy_price": 1.05,
+        "sell_price": 0.992,
+        "gain %": -5.523809523809529,
+        "time": "2020-06-16 10:05:42.234515"
+    },
+    {
+        "symbol": "AIKI",
+        "buy_price": 0.822,
+        "sell_price": 0.849,
+        "gain %": 3.284671532846718,
+        "time": "2020-06-16 10:05:46.694333"
+    },
+    {
+        "symbol": "NMTR",
+        "buy_price": 0.639,
+        "sell_price": 0.6007,
+        "gain %": -5.993740219092332,
+        "time": "2020-06-16 10:07:30.220830"
+    },
+    {
+        "symbol": "PSHG",
+        "buy_price": 0.67,
+        "sell_price": 0.6363,
+        "gain %": -5.029850746268666,
+        "time": "2020-06-16 10:09:21.674430"
+    },
+    {
+        "symbol": "DNN",
+        "buy_price": 0.365,
+        "sell_price": 0.3693,
+        "gain %": 1.178082191780829,
+        "time": "2020-06-16 10:11:02.536416"
+    },
+    {
+        "symbol": "NDRA",
+        "buy_price": 1.05,
+        "sell_price": 1.08,
+        "gain %": 2.8571428571428594,
+        "time": "2020-06-16 10:11:09.419408"
+    },
+    {
+        "symbol": "OPTT",
+        "buy_price": 0.585,
+        "sell_price": 0.5547,
+        "gain %": -5.179487179487179,
+        "time": "2020-06-16 10:11:14.649411"
+    },
+    {
+        "symbol": "ECT",
+        "buy_price": 0.58,
+        "sell_price": 0.54,
+        "gain %": -6.896551724137918,
+        "time": "2020-06-16 10:13:00.749750"
+    },
+    {
+        "symbol": "CLUB",
+        "buy_price": 0.94,
+        "sell_price": 0.86,
+        "gain %": -8.510638297872337,
+        "time": "2020-06-16 10:14:52.396017"
+    },
+    {
+        "symbol": "CLIR",
+        "buy_price": 2.23,
+        "sell_price": 2.35,
+        "gain %": 5.381165919282516,
+        "time": "2020-06-16 10:14:56.254035"
+    },
+    {
+        "symbol": "APEX",
+        "buy_price": 0.6299,
+        "sell_price": 0.64,
+        "gain %": 1.6034291157326557,
+        "time": "2020-06-16 10:16:35.489827"
+    },
+    {
+        "symbol": "MSN",
+        "buy_price": 0.86,
+        "sell_price": 0.94,
+        "gain %": 9.302325581395344,
+        "time": "2020-06-16 10:20:05.944501"
+    },
+    {
+        "symbol": "GMO",
+        "buy_price": 0.2394,
+        "sell_price": 0.2433,
+        "gain %": 1.6290726817042551,
+        "time": "2020-06-16 10:21:48.995506"
+    },
+    {
+        "symbol": "PEIX",
+        "buy_price": 0.8545,
+        "sell_price": 0.8103,
+        "gain %": -5.172615564657696,
+        "time": "2020-06-16 10:23:36.973599"
+    },
+    {
+        "symbol": "MCC",
+        "buy_price": 0.858,
+        "sell_price": 0.815,
+        "gain %": -5.011655011655016,
+        "time": "2020-06-16 10:25:32.727212"
+    },
+    {
+        "symbol": "LITB",
+        "buy_price": 0.8296,
+        "sell_price": 0.85,
+        "gain %": 2.45901639344262,
+        "time": "2020-06-16 10:25:38.994419"
+    },
+    {
+        "symbol": "DLPN",
+        "buy_price": 1.09,
+        "sell_price": 1.03,
+        "gain %": -5.504587155963307,
+        "time": "2020-06-16 10:27:25.593783"
+    },
+    {
+        "symbol": "STON",
+        "buy_price": 1.12,
+        "sell_price": 1.04,
+        "gain %": -7.142857142857148,
+        "time": "2020-06-16 10:29:11.974871"
+    },
+    {
+        "symbol": "CLIR",
+        "buy_price": 2.62,
+        "sell_price": 2.78,
+        "gain %": 6.1068702290076216,
+        "time": "2020-06-16 10:36:08.172383"
+    },
+    {
+        "symbol": "CLIR",
+        "buy_price": 2.99,
+        "sell_price": 3.02,
+        "gain %": 1.0033444816053445,
+        "time": "2020-06-16 10:40:05.154313"
+    },
+    {
+        "symbol": "DXYN",
+        "buy_price": 0.83,
+        "sell_price": 0.85,
+        "gain %": 2.40963855421687,
+        "time": "2020-06-16 10:41:47.043351"
+    },
+    {
+        "symbol": "ALJJ",
+        "buy_price": 0.6799,
+        "sell_price": 0.64,
+        "gain %": -5.868510075011022,
+        "time": "2020-06-16 10:43:30.183699"
+    },
+    {
+        "symbol": "GEN",
+        "buy_price": 0.885,
+        "sell_price": 0.8336,
+        "gain %": -5.807909604519774,
+        "time": "2020-06-16 10:45:05.161999"
+    },
+    {
+        "symbol": "IGC",
+        "buy_price": 0.6198,
+        "sell_price": 0.58,
+        "gain %": -6.421426266537601,
+        "time": "2020-06-16 10:49:47.325194"
+    },
+    {
+        "symbol": "BDR",
+        "buy_price": 0.64,
+        "sell_price": 0.6,
+        "gain %": -6.250000000000005,
+        "time": "2020-06-16 10:49:52.138007"
+    },
+    {
+        "symbol": "FTEK",
+        "buy_price": 0.85,
+        "sell_price": 0.868,
+        "gain %": 2.117647058823531,
+        "time": "2020-06-16 10:54:31.411970"
+    },
+    {
+        "symbol": "PDS",
+        "buy_price": 0.88,
+        "sell_price": 0.8301,
+        "gain %": -5.670454545454551,
+        "time": "2020-06-16 10:54:34.845363"
+    },
+    {
+        "symbol": "SMRT",
+        "buy_price": 0.5175,
+        "sell_price": 0.48,
+        "gain %": -7.246376811594199,
+        "time": "2020-06-16 10:54:39.713221"
+    },
+    {
+        "symbol": "WSTL",
+        "buy_price": 0.8783,
+        "sell_price": 0.89,
+        "gain %": 1.3321188659911243,
+        "time": "2020-06-16 10:54:43.697806"
+    },
+    {
+        "symbol": "LITB",
+        "buy_price": 0.91,
+        "sell_price": 0.86,
+        "gain %": -5.494505494505499,
+        "time": "2020-06-16 10:56:22.825950"
+    },
+    {
+        "symbol": "PTN",
+        "buy_price": 0.6232,
+        "sell_price": 0.5872,
+        "gain %": -5.776636713735546,
+        "time": "2020-06-16 11:00:57.995075"
+    },
+    {
+        "symbol": "ZN",
+        "buy_price": 0.3427,
+        "sell_price": 0.3251,
+        "gain %": -5.135687189962067,
+        "time": "2020-06-16 11:02:35.626710"
+    },
+    {
+        "symbol": "YTRA",
+        "buy_price": 1.07,
+        "sell_price": 1.0,
+        "gain %": -6.54205607476636,
+        "time": "2020-06-16 11:07:09.005326"
+    },
+    {
+        "symbol": "LLIT",
+        "buy_price": 0.675,
+        "sell_price": 0.685,
+        "gain %": 1.4814814814814827,
+        "time": "2020-06-16 11:07:14.538695"
+    },
+    {
+        "symbol": "HHT",
+        "buy_price": 0.735,
+        "sell_price": 0.79,
+        "gain %": 7.482993197278918,
+        "time": "2020-06-16 11:08:47.174996"
+    },
+    {
+        "symbol": "HUSN",
+        "buy_price": 0.66,
+        "sell_price": 0.75,
+        "gain %": 13.63636363636363,
+        "time": "2020-06-16 11:10:21.129905"
+    },
+    {
+        "symbol": "BOXL",
+        "buy_price": 0.838,
+        "sell_price": 0.8588,
+        "gain %": 2.4821002386634894,
+        "time": "2020-06-16 11:21:03.685862"
+    },
+    {
+        "symbol": "LLIT",
+        "buy_price": 0.7359,
+        "sell_price": 0.69,
+        "gain %": -6.23726049735019,
+        "time": "2020-06-16 11:25:38.681656"
+    },
+    {
+        "symbol": "TBLT",
+        "buy_price": 0.935,
+        "sell_price": 0.9463,
+        "gain %": 1.2085561497326178,
+        "time": "2020-06-16 11:27:08.806461"
+    },
+    {
+        "symbol": "XPL",
+        "buy_price": 0.32,
+        "sell_price": 0.3023,
+        "gain %": -5.531249999999998,
+        "time": "2020-06-16 11:28:40.911166"
+    },
+    {
+        "symbol": "HHT",
+        "buy_price": 0.8499,
+        "sell_price": 0.8628,
+        "gain %": 1.517825626544302,
+        "time": "2020-06-16 11:37:31.232638"
+    },
+    {
+        "symbol": "PER",
+        "buy_price": 0.55,
+        "sell_price": 0.5225,
+        "gain %": -5.000000000000014,
+        "time": "2020-06-16 11:49:50.242653"
+    },
+    {
+        "symbol": "PLM",
+        "buy_price": 0.3696,
+        "sell_price": 0.3799,
+        "gain %": 2.7867965367965453,
+        "time": "2020-06-16 11:52:00.486191"
+    },
+    {
+        "symbol": "GSM",
+        "buy_price": 0.6943,
+        "sell_price": 0.6574,
+        "gain %": -5.314705458735423,
+        "time": "2020-06-16 11:54:01.148398"
+    },
+    {
+        "symbol": "SYN",
+        "buy_price": 0.46,
+        "sell_price": 0.48,
+        "gain %": 4.3478260869565135,
+        "time": "2020-06-16 11:54:04.455410"
+    },
+    {
+        "symbol": "XPL",
+        "buy_price": 0.3225,
+        "sell_price": 0.33,
+        "gain %": 2.325581395348839,
+        "time": "2020-06-16 12:02:14.966205"
+    },
+    {
+        "symbol": "XYF",
+        "buy_price": 1.24,
+        "sell_price": 1.29,
+        "gain %": 4.032258064516133,
+        "time": "2020-06-16 12:02:18.347055"
+    },
+    {
+        "symbol": "PLM",
+        "buy_price": 0.43,
+        "sell_price": 0.406,
+        "gain %": -5.5813953488372015,
+        "time": "2020-06-16 12:03:51.223402"
+    },
+    {
+        "symbol": "PLM",
+        "buy_price": 0.4499,
+        "sell_price": 0.4595,
+        "gain %": 2.1338075127806175,
+        "time": "2020-06-16 12:10:43.569816"
+    },
+    {
+        "symbol": "PLM",
+        "buy_price": 0.508,
+        "sell_price": 0.52,
+        "gain %": 2.362204724409451,
+        "time": "2020-06-16 12:22:59.366807"
+    },
+    {
+        "symbol": "OPTT",
+        "buy_price": 0.6799,
+        "sell_price": 0.7411,
+        "gain %": 9.001323724077077,
+        "time": "2020-06-16 12:26:01.291434"
+    },
+    {
+        "symbol": "MDLY",
+        "buy_price": 0.7382,
+        "sell_price": 0.6906,
+        "gain %": -6.4481170414521785,
+        "time": "2020-06-16 12:29:03.624036"
+    },
+    {
+        "symbol": "PLM",
+        "buy_price": 0.568,
+        "sell_price": 0.53,
+        "gain %": -6.69014084507041,
+        "time": "2020-06-16 12:29:08.948365"
+    },
+    {
+        "symbol": "HCR",
+        "buy_price": 0.385,
+        "sell_price": 0.4017,
+        "gain %": 4.337662337662335,
+        "time": "2020-06-16 12:30:42.446072"
+    },
+    {
+        "symbol": "PLM",
+        "buy_price": 0.58,
+        "sell_price": 0.588,
+        "gain %": 1.3793103448275876,
+        "time": "2020-06-16 12:32:16.102108"
+    },
+    {
+        "symbol": "GMO",
+        "buy_price": 0.27,
+        "sell_price": 0.2736,
+        "gain %": 1.3333333333333304,
+        "time": "2020-06-16 12:38:48.967061"
+    },
+    {
+        "symbol": "UUU",
+        "buy_price": 0.859,
+        "sell_price": 0.78,
+        "gain %": -9.196740395809076,
+        "time": "2020-06-16 12:51:24.808592"
+    },
+    {
+        "symbol": "MTSL",
+        "buy_price": 1.1,
+        "sell_price": 1.12,
+        "gain %": 1.8181818181818195,
+        "time": "2020-06-16 12:53:30.920537"
+    },
+    {
+        "symbol": "OPTT",
+        "buy_price": 0.79,
+        "sell_price": 0.8,
+        "gain %": 1.2658227848101276,
+        "time": "2020-06-16 13:00:44.490787"
+    },
+    {
+        "symbol": "BRN",
+        "buy_price": 0.75,
+        "sell_price": 0.769,
+        "gain %": 2.533333333333336,
+        "time": "2020-06-16 13:18:26.153526"
+    },
+    {
+        "symbol": "LITB",
+        "buy_price": 0.944,
+        "sell_price": 0.9553,
+        "gain %": 1.197033898305094,
+        "time": "2020-06-16 13:22:58.227518"
+    },
+    {
+        "symbol": "UUU",
+        "buy_price": 0.848,
+        "sell_price": 0.7801,
+        "gain %": -8.007075471698109,
+        "time": "2020-06-16 13:25:15.892977"
+    },
+    {
+        "symbol": "FTEK",
+        "buy_price": 0.9353,
+        "sell_price": 0.8797,
+        "gain %": -5.944616700523894,
+        "time": "2020-06-16 14:04:51.485657"
+    },
+    {
+        "symbol": "OPTT",
+        "buy_price": 0.8545,
+        "sell_price": 0.88,
+        "gain %": 2.984201287302512,
+        "time": "2020-06-16 14:06:27.663749"
+    },
+    {
+        "symbol": "HCR",
+        "buy_price": 0.43,
+        "sell_price": 0.4452,
+        "gain %": 3.5348837209302304,
+        "time": "2020-06-16 14:08:05.318640"
+    },
+    {
+        "symbol": "ONVO",
+        "buy_price": 0.5998,
+        "sell_price": 0.6099,
+        "gain %": 1.6838946315438474,
+        "time": "2020-06-16 14:18:47.823281"
+    },
+    {
+        "symbol": "RAVE",
+        "buy_price": 0.939,
+        "sell_price": 0.8899,
+        "gain %": -5.228966986155476,
+        "time": "2020-06-16 14:21:54.459192"
+    },
+    {
+        "symbol": "NXTD",
+        "buy_price": 0.52,
+        "sell_price": 0.53,
+        "gain %": 1.9230769230769247,
+        "time": "2020-06-16 14:42:01.027530"
+    },
+    {
+        "symbol": "OPTT",
+        "buy_price": 0.9466,
+        "sell_price": 0.9599,
+        "gain %": 1.4050285231354298,
+        "time": "2020-06-16 14:48:12.393811"
+    },
+    {
+        "symbol": "CLIR",
+        "buy_price": 3.26,
+        "sell_price": 2.91,
+        "gain %": -10.736196319018394,
+        "time": "2020-06-16 15:01:55.644196"
+    },
+    {
+        "symbol": "HCR",
+        "buy_price": 0.48,
+        "sell_price": 0.529,
+        "gain %": 10.208333333333343,
+        "time": "2020-06-16 15:18:14.821785"
+    },
+    {
+        "symbol": "HCR",
+        "buy_price": 0.5789,
+        "sell_price": 0.5391,
+        "gain %": -6.875107963378813,
+        "time": "2020-06-16 15:25:51.567320"
+    },
+    {
+        "symbol": "BDR",
+        "buy_price": 0.64,
+        "sell_price": 0.65,
+        "gain %": 1.5625000000000013,
+        "time": "2020-06-16 15:35:14.366811"
+    },
+    {
+        "symbol": "BDR",
+        "buy_price": 0.755,
+        "sell_price": 0.78,
+        "gain %": 3.3112582781456985,
+        "time": "2020-06-16 15:39:00.220036"
+    },
+    {
+        "symbol": "HCR",
+        "buy_price": 0.5989,
+        "sell_price": 0.6099,
+        "gain %": 1.8367006177993004,
+        "time": "2020-06-16 15:44:41.177557"
+    },
+    {
+        "symbol": "CSU",
+        "buy_price": 1.06,
+        "sell_price": 0.9789,
+        "gain %": -7.65094339622642,
+        "time": "2020-06-16 15:52:10.737551"
+    },
+    {
+        "symbol": "UUU",
+        "buy_price": 0.84,
+        "sell_price": 0.8498,
+        "gain %": 1.1666666666666703,
+        "time": "2020-06-16 15:52:15.713176"
+    },
+    {
+        "symbol": "XTNT",
+        "buy_price": 1.05,
+        "sell_price": 1.08,
+        "gain %": 2.8571428571428594,
+        "time": "2020-06-16 15:55:59.200517"
+    },
+    {
+        "symbol": "SSY",
+        "buy_price": 0.8554,
+        "sell_price": 0.87,
+        "gain %": 1.7068038344634027,
+        "time": "2020-06-16 16:00:28.527742"
+    },
+    {
+        "symbol": "DARE",
+        "buy_price": 1.06,
+        "sell_price": 1.08,
+        "gain %": 1.8867924528301903,
+        "time": "2020-06-16 16:00:34.916714"
+    },
+    {
+        "symbol": "DLPN",
+        "buy_price": 1.15,
+        "sell_price": 1.08,
+        "gain %": -6.086956521739117,
+        "time": "2020-06-16 16:30:17.817625"
+    },
+    {
+        "symbol": "JOB",
+        "buy_price": 0.53,
+        "sell_price": 0.5,
+        "gain %": -5.660377358490571,
+        "time": "2020-06-16 16:41:17.376831"
+    },
+    {
+        "symbol": "ECT",
+        "buy_price": 0.5799,
+        "sell_price": 0.5301,
+        "gain %": -8.587687532333153,
+        "time": "2020-06-16 16:53:20.644829"
+    },
+    {
+        "symbol": "DYNT",
+        "buy_price": 0.8279,
+        "sell_price": 0.788,
+        "gain %": -4.819422635584,
+        "time": "2020-06-17 11:48:45.314290"
+    },
+    {
+        "symbol": "GSAT",
+        "buy_price": 0.3749,
+        "sell_price": 0.3559,
+        "gain %": -5.068018138170183,
+        "time": "2020-06-17 11:48:48.765373"
+    },
+    {
+        "symbol": "BKYI",
+        "buy_price": 0.89,
+        "sell_price": 0.8336,
+        "gain %": -6.337078651685394,
+        "time": "2020-06-17 11:48:52.330676"
+    },
+    {
+        "symbol": "BIOL",
+        "buy_price": 0.545,
+        "sell_price": 0.501,
+        "gain %": -8.07339449541285,
+        "time": "2020-06-17 11:48:55.808555"
+    },
+    {
+        "symbol": "SMTS",
+        "buy_price": 1.05,
+        "sell_price": 0.7699,
+        "gain %": -26.676190476190477,
+        "time": "2020-06-17 11:48:59.798529"
+    },
+    {
+        "symbol": "HDSN",
+        "buy_price": 1.05,
+        "sell_price": 1.02,
+        "gain %": -2.8571428571428594,
+        "time": "2020-06-17 11:49:03.148514"
+    },
+    {
+        "symbol": "ARC",
+        "buy_price": 1.08,
+        "sell_price": 1.02,
+        "gain %": -5.55555555555556,
+        "time": "2020-06-17 11:49:06.473157"
+    },
+    {
+        "symbol": "TGC",
+        "buy_price": 0.7,
+        "sell_price": 0.56,
+        "gain %": -19.999999999999986,
+        "time": "2020-06-17 11:49:09.870912"
+    },
+    {
+        "symbol": "CBAT",
+        "buy_price": 0.7,
+        "sell_price": 0.678,
+        "gain %": -3.14285714285713,
+        "time": "2020-06-17 11:49:13.374023"
+    },
+    {
+        "symbol": "APEX",
+        "buy_price": 0.85,
+        "sell_price": 0.7299,
+        "gain %": -14.129411764705882,
+        "time": "2020-06-17 11:49:16.597547"
+    },
+    {
+        "symbol": "BRN",
+        "buy_price": 0.85,
+        "sell_price": 0.7399,
+        "gain %": -12.952941176470587,
+        "time": "2020-06-17 11:49:20.112921"
+    },
+    {
+        "symbol": "UUU",
+        "buy_price": 0.95,
+        "sell_price": 1.0,
+        "gain %": 5.263157894736848,
+        "time": "2020-06-17 11:49:23.766109"
+    },
+    {
+        "symbol": "SNSS",
+        "buy_price": 0.61,
+        "sell_price": 0.5999,
+        "gain %": -1.6557377049180324,
+        "time": "2020-06-17 11:49:27.787517"
+    },
+    {
+        "symbol": "DSE",
+        "buy_price": 0.7469,
+        "sell_price": 0.7354,
+        "gain %": -1.5396974159860697,
+        "time": "2020-06-17 11:49:31.618526"
+    },
+    {
+        "symbol": "CVEO",
+        "buy_price": 0.65,
+        "sell_price": 0.6395,
+        "gain %": -1.6153846153846254,
+        "time": "2020-06-17 11:51:34.708836"
+    },
+    {
+        "symbol": "IGC",
+        "buy_price": 0.62,
+        "sell_price": 0.5846,
+        "gain %": -5.709677419354837,
+        "time": "2020-06-17 11:51:38.179685"
+    },
+    {
+        "symbol": "SDPI",
+        "buy_price": 1.02,
+        "sell_price": 1.0,
+        "gain %": -1.960784313725492,
+        "time": "2020-06-17 11:51:41.796752"
+    },
+    {
+        "symbol": "UAMY",
+        "buy_price": 0.5,
+        "sell_price": 0.45,
+        "gain %": -9.999999999999998,
+        "time": "2020-06-17 11:51:45.473407"
+    },
+    {
+        "symbol": "ISIG",
+        "buy_price": 0.8797,
+        "sell_price": 0.815,
+        "gain %": -7.35478003864955,
+        "time": "2020-06-17 11:51:48.844861"
+    },
+    {
+        "symbol": "ECOR",
+        "buy_price": 1.1,
+        "sell_price": 0.9691,
+        "gain %": -11.900000000000011,
+        "time": "2020-06-17 11:51:52.440031"
+    },
+    {
+        "symbol": "ECT",
+        "buy_price": 0.5799,
+        "sell_price": 0.5151,
+        "gain %": -11.174340403517844,
+        "time": "2020-06-17 11:51:55.964107"
+    },
+    {
+        "symbol": "DXF",
+        "buy_price": 0.82,
+        "sell_price": 0.7528,
+        "gain %": -8.195121951219503,
+        "time": "2020-06-17 11:52:01.087411"
+    },
+    {
+        "symbol": "STCN",
+        "buy_price": 0.72,
+        "sell_price": 0.6701,
+        "gain %": -6.930555555555548,
+        "time": "2020-06-17 11:54:07.051616"
+    },
+    {
+        "symbol": "APWC",
+        "buy_price": 1.21,
+        "sell_price": 1.36,
+        "gain %": 12.396694214876044,
+        "time": "2020-06-17 11:54:11.374736"
+    },
+    {
+        "symbol": "HSDT",
+        "buy_price": 0.527,
+        "sell_price": 0.4819,
+        "gain %": -8.557874762808353,
+        "time": "2020-06-17 11:54:15.058703"
+    },
+    {
+        "symbol": "ALJJ",
+        "buy_price": 0.649,
+        "sell_price": 0.64,
+        "gain %": -1.3867488443759644,
+        "time": "2020-06-17 11:54:20.453810"
+    },
+    {
+        "symbol": "HJLI",
+        "buy_price": 0.45,
+        "sell_price": 0.445,
+        "gain %": -1.111111111111112,
+        "time": "2020-06-17 11:54:26.719726"
+    },
+    {
+        "symbol": "KIQ",
+        "buy_price": 0.7,
+        "sell_price": 0.6509,
+        "gain %": -7.014285714285704,
+        "time": "2020-06-17 11:56:20.518331"
+    },
+    {
+        "symbol": "CBL",
+        "buy_price": 0.3243,
+        "sell_price": 0.3285,
+        "gain %": 1.295097132284933,
+        "time": "2020-06-17 11:56:23.940154"
+    },
+    {
+        "symbol": "MDLY",
+        "buy_price": 0.8285,
+        "sell_price": 0.9581,
+        "gain %": 15.642727821363902,
+        "time": "2020-06-17 11:56:27.395476"
+    },
+    {
+        "symbol": "AQMS",
+        "buy_price": 1.02,
+        "sell_price": 1.05,
+        "gain %": 2.9411764705882377,
+        "time": "2020-06-17 11:58:18.486088"
+    },
+    {
+        "symbol": "AFH",
+        "buy_price": 1.33,
+        "sell_price": 1.27,
+        "gain %": -4.5112781954887256,
+        "time": "2020-06-17 11:58:23.782829"
+    },
+    {
+        "symbol": "WSTL",
+        "buy_price": 0.9999,
+        "sell_price": 0.9898,
+        "gain %": -1.01010101010101,
+        "time": "2020-06-17 12:00:37.757074"
+    },
+    {
+        "symbol": "DXF",
+        "buy_price": 0.8199,
+        "sell_price": 0.79,
+        "gain %": -3.6467861934382153,
+        "time": "2020-06-17 12:00:45.359094"
+    },
+    {
+        "symbol": "CCCL",
+        "buy_price": 0.878,
+        "sell_price": 0.8688,
+        "gain %": -1.0478359908883812,
+        "time": "2020-06-17 12:03:09.004192"
+    },
+    {
+        "symbol": "BIOC",
+        "buy_price": 0.6714,
+        "sell_price": 0.6827,
+        "gain %": 1.6830503425677652,
+        "time": "2020-06-17 12:05:12.704445"
+    },
+    {
+        "symbol": "MCC",
+        "buy_price": 0.8596,
+        "sell_price": 0.85,
+        "gain %": -1.116798510935325,
+        "time": "2020-06-17 12:09:31.785143"
+    },
+    {
+        "symbol": "AFH",
+        "buy_price": 1.37,
+        "sell_price": 1.34,
+        "gain %": -2.189781021897812,
+        "time": "2020-06-17 12:09:35.475453"
+    },
+    {
+        "symbol": "XELA",
+        "buy_price": 0.5395,
+        "sell_price": 0.534,
+        "gain %": -1.0194624652455884,
+        "time": "2020-06-17 12:13:40.479414"
+    },
+    {
+        "symbol": "HJLI",
+        "buy_price": 0.474,
+        "sell_price": 0.48,
+        "gain %": 1.2658227848101278,
+        "time": "2020-06-17 12:13:43.735632"
+    },
+    {
+        "symbol": "HUSN",
+        "buy_price": 0.735,
+        "sell_price": 0.7311,
+        "gain %": -0.5306122448979612,
+        "time": "2020-06-17 12:15:54.472125"
+    },
+    {
+        "symbol": "HGSH",
+        "buy_price": 0.9099,
+        "sell_price": 0.9,
+        "gain %": -1.0880316518298734,
+        "time": "2020-06-17 12:17:54.593584"
+    },
+    {
+        "symbol": "OPTT",
+        "buy_price": 0.8799,
+        "sell_price": 0.87,
+        "gain %": -1.1251278554381203,
+        "time": "2020-06-17 12:19:57.884584"
+    },
+    {
+        "symbol": "DXF",
+        "buy_price": 0.8424,
+        "sell_price": 0.835,
+        "gain %": -0.8784425451092204,
+        "time": "2020-06-17 12:23:55.304354"
+    },
+    {
+        "symbol": "AFH",
+        "buy_price": 1.46,
+        "sell_price": 1.49,
+        "gain %": 2.054794520547947,
+        "time": "2020-06-17 12:25:49.640780"
+    },
+    {
+        "symbol": "VTGN",
+        "buy_price": 0.5229,
+        "sell_price": 0.5159,
+        "gain %": -1.3386880856760386,
+        "time": "2020-06-17 12:27:45.929481"
+    },
+    {
+        "symbol": "TAOP",
+        "buy_price": 0.459,
+        "sell_price": 0.49,
+        "gain %": 6.753812636165571,
+        "time": "2020-06-17 12:29:44.430159"
+    },
+    {
+        "symbol": "XELA",
+        "buy_price": 0.57,
+        "sell_price": 0.5789,
+        "gain %": 1.5614035087719333,
+        "time": "2020-06-17 12:31:41.999886"
+    },
+    {
+        "symbol": "NOVN",
+        "buy_price": 0.5446,
+        "sell_price": 0.5339,
+        "gain %": -1.9647447668013098,
+        "time": "2020-06-17 12:33:38.632779"
+    },
+    {
+        "symbol": "HJLI",
+        "buy_price": 0.54,
+        "sell_price": 0.58,
+        "gain %": 7.407407407407393,
+        "time": "2020-06-17 12:35:33.956376"
+    },
+    {
+        "symbol": "RMED",
+        "buy_price": 0.6348,
+        "sell_price": 0.625,
+        "gain %": -1.5437933207309436,
+        "time": "2020-06-17 12:41:26.748608"
+    },
+    {
+        "symbol": "GMO",
+        "buy_price": 0.26,
+        "sell_price": 0.265,
+        "gain %": 1.9230769230769247,
+        "time": "2020-06-17 12:47:19.314951"
+    },
+    {
+        "symbol": "BGI",
+        "buy_price": 0.94,
+        "sell_price": 0.9052,
+        "gain %": -3.702127659574462,
+        "time": "2020-06-17 12:49:34.589011"
+    },
+    {
+        "symbol": "DXLG",
+        "buy_price": 0.57,
+        "sell_price": 0.5589,
+        "gain %": -1.9473684210526316,
+        "time": "2020-06-17 12:51:34.804220"
+    },
+    {
+        "symbol": "AIHS",
+        "buy_price": 0.7199,
+        "sell_price": 0.7049,
+        "gain %": -2.0836227253785267,
+        "time": "2020-06-17 12:55:28.404293"
+    },
+    {
+        "symbol": "TRPX",
+        "buy_price": 0.7049,
+        "sell_price": 0.72,
+        "gain %": 2.1421478223861543,
+        "time": "2020-06-17 12:55:32.316930"
+    },
+    {
+        "symbol": "NCSM",
+        "buy_price": 0.6296,
+        "sell_price": 0.623,
+        "gain %": -1.048284625158839,
+        "time": "2020-06-17 12:57:45.301692"
+    },
+    {
+        "symbol": "AFH",
+        "buy_price": 1.59,
+        "sell_price": 1.79,
+        "gain %": 12.578616352201255,
+        "time": "2020-06-17 12:59:47.698000"
+    },
+    {
+        "symbol": "FAMI",
+        "buy_price": 0.6,
+        "sell_price": 0.61,
+        "gain %": 1.6666666666666683,
+        "time": "2020-06-17 12:59:50.988160"
+    },
+    {
+        "symbol": "AFH",
+        "buy_price": 1.91,
+        "sell_price": 1.76,
+        "gain %": -7.853403141361253,
+        "time": "2020-06-17 13:05:46.807910"
+    },
+    {
+        "symbol": "DXYN",
+        "buy_price": 0.87,
+        "sell_price": 0.88,
+        "gain %": 1.1494252873563229,
+        "time": "2020-06-17 13:08:55.567969"
+    },
+    {
+        "symbol": "MOXC",
+        "buy_price": 1.09,
+        "sell_price": 1.07,
+        "gain %": -1.8348623853211024,
+        "time": "2020-06-17 13:10:19.511088"
+    },
+    {
+        "symbol": "DXF",
+        "buy_price": 0.92,
+        "sell_price": 0.93,
+        "gain %": 1.0869565217391313,
+        "time": "2020-06-17 13:11:43.340597"
+    },
+    {
+        "symbol": "DXF",
+        "buy_price": 1.05,
+        "sell_price": 1.07,
+        "gain %": 1.9047619047619064,
+        "time": "2020-06-17 13:13:07.073991"
+    },
+    {
+        "symbol": "DXF",
+        "buy_price": 1.15,
+        "sell_price": 1.21,
+        "gain %": 5.2173913043478315,
+        "time": "2020-06-17 13:17:16.235526"
+    },
+    {
+        "symbol": "MDLY",
+        "buy_price": 1.05,
+        "sell_price": 1.07,
+        "gain %": 1.9047619047619064,
+        "time": "2020-06-17 13:20:00.246644"
+    },
+    {
+        "symbol": "HUSN",
+        "buy_price": 0.8468,
+        "sell_price": 0.8697,
+        "gain %": 2.704298535663679,
+        "time": "2020-06-17 13:20:03.402744"
+    },
+    {
+        "symbol": "AFH",
+        "buy_price": 2.14,
+        "sell_price": 2.06,
+        "gain %": -3.738317757009349,
+        "time": "2020-06-17 13:21:26.185143"
+    },
+    {
+        "symbol": "SUNW",
+        "buy_price": 0.7297,
+        "sell_price": 0.7152,
+        "gain %": -1.9871179936960488,
+        "time": "2020-06-17 13:22:49.518410"
+    },
+    {
+        "symbol": "SENS",
+        "buy_price": 0.4387,
+        "sell_price": 0.433,
+        "gain %": -1.2992933667654396,
+        "time": "2020-06-17 13:24:14.865817"
+    },
+    {
+        "symbol": "DXF",
+        "buy_price": 1.35,
+        "sell_price": 1.38,
+        "gain %": 2.2222222222222077,
+        "time": "2020-06-17 13:25:40.191410"
+    },
+    {
+        "symbol": "DSE",
+        "buy_price": 0.81,
+        "sell_price": 0.8189,
+        "gain %": 1.0987654320987539,
+        "time": "2020-06-17 13:27:03.892434"
+    },
+    {
+        "symbol": "ZOM",
+        "buy_price": 0.214,
+        "sell_price": 0.211,
+        "gain %": -1.401869158878506,
+        "time": "2020-06-17 13:29:49.573817"
+    },
+    {
+        "symbol": "AIHS",
+        "buy_price": 0.7782,
+        "sell_price": 0.7569,
+        "gain %": -2.7370855821125657,
+        "time": "2020-06-17 13:29:52.806866"
+    },
+    {
+        "symbol": "PT",
+        "buy_price": 1.08,
+        "sell_price": 1.1,
+        "gain %": 1.8518518518518534,
+        "time": "2020-06-17 13:31:17.735871"
+    },
+    {
+        "symbol": "HX",
+        "buy_price": 0.85,
+        "sell_price": 0.87,
+        "gain %": 2.35294117647059,
+        "time": "2020-06-17 13:32:41.898133"
+    },
+    {
+        "symbol": "HX",
+        "buy_price": 0.975,
+        "sell_price": 0.9546,
+        "gain %": -2.0923076923076893,
+        "time": "2020-06-17 13:34:05.742756"
+    },
+    {
+        "symbol": "SPI",
+        "buy_price": 1.04,
+        "sell_price": 1.06,
+        "gain %": 1.9230769230769247,
+        "time": "2020-06-17 13:38:11.775420"
+    },
+    {
+        "symbol": "MDLY",
+        "buy_price": 1.15,
+        "sell_price": 1.13,
+        "gain %": -1.7391304347826104,
+        "time": "2020-06-17 13:40:56.743296"
+    },
+    {
+        "symbol": "SMRT",
+        "buy_price": 0.4759,
+        "sell_price": 0.4698,
+        "gain %": -1.281781886951039,
+        "time": "2020-06-17 13:43:40.291825"
+    },
+    {
+        "symbol": "HJLI",
+        "buy_price": 0.6195,
+        "sell_price": 0.61,
+        "gain %": -1.5334947538337471,
+        "time": "2020-06-17 13:49:04.684914"
+    },
+    {
+        "symbol": "PER",
+        "buy_price": 0.5597,
+        "sell_price": 0.554,
+        "gain %": -1.0184027157405624,
+        "time": "2020-06-17 13:50:27.926752"
+    },
+    {
+        "symbol": "DXLG",
+        "buy_price": 0.6,
+        "sell_price": 0.59,
+        "gain %": -1.6666666666666683,
+        "time": "2020-06-17 13:50:31.182462"
+    },
+    {
+        "symbol": "BDR",
+        "buy_price": 0.8989,
+        "sell_price": 0.8755,
+        "gain %": -2.6031816664812646,
+        "time": "2020-06-17 13:51:53.915636"
+    },
+    {
+        "symbol": "ALJJ",
+        "buy_price": 0.6898,
+        "sell_price": 0.713,
+        "gain %": 3.363293708321252,
+        "time": "2020-06-17 13:53:18.668741"
+    },
+    {
+        "symbol": "ROSE",
+        "buy_price": 0.9203,
+        "sell_price": 0.9399,
+        "gain %": 2.1297403020754047,
+        "time": "2020-06-17 13:58:43.371596"
+    },
+    {
+        "symbol": "AFH",
+        "buy_price": 2.24,
+        "sell_price": 2.28,
+        "gain %": 1.7857142857142672,
+        "time": "2020-06-17 14:00:06.103965"
+    },
+    {
+        "symbol": "SUNW",
+        "buy_price": 0.778,
+        "sell_price": 0.7699,
+        "gain %": -1.0411311053984569,
+        "time": "2020-06-17 14:04:10.713934"
+    },
+    {
+        "symbol": "SPI",
+        "buy_price": 1.13,
+        "sell_price": 1.08,
+        "gain %": -4.424778761061932,
+        "time": "2020-06-17 14:06:56.040029"
+    },
+    {
+        "symbol": "NCTY",
+        "buy_price": 0.7676,
+        "sell_price": 0.79,
+        "gain %": 2.9181865554976665,
+        "time": "2020-06-17 14:08:20.608779"
+    },
+    {
+        "symbol": "TRX",
+        "buy_price": 0.8626,
+        "sell_price": 0.8747,
+        "gain %": 1.402735914676559,
+        "time": "2020-06-17 14:09:40.998769"
+    },
+    {
+        "symbol": "LODE",
+        "buy_price": 0.7471,
+        "sell_price": 0.7265,
+        "gain %": -2.7573283362334293,
+        "time": "2020-06-17 14:15:07.758768"
+    },
+    {
+        "symbol": "EARS",
+        "buy_price": 1.03,
+        "sell_price": 1.01,
+        "gain %": -1.9417475728155356,
+        "time": "2020-06-17 14:20:34.107313"
+    },
+    {
+        "symbol": "MDLY",
+        "buy_price": 1.27,
+        "sell_price": 1.29,
+        "gain %": 1.5748031496063006,
+        "time": "2020-06-17 14:23:21.906528"
+    },
+    {
+        "symbol": "HTGM",
+        "buy_price": 0.668,
+        "sell_price": 0.6594,
+        "gain %": -1.2874251497006064,
+        "time": "2020-06-17 14:27:25.711564"
+    },
+    {
+        "symbol": "HTGM",
+        "buy_price": 0.71,
+        "sell_price": 0.699,
+        "gain %": -1.5492957746478888,
+        "time": "2020-06-17 14:50:17.651274"
+    },
+    {
+        "symbol": "ADMP",
+        "buy_price": 0.6398,
+        "sell_price": 0.6321,
+        "gain %": -1.20350109409191,
+        "time": "2020-06-17 15:02:16.563941"
+    },
+    {
+        "symbol": "BDR",
+        "buy_price": 1.08,
+        "sell_price": 1.03,
+        "gain %": -4.629629629629633,
+        "time": "2020-06-17 15:09:00.357286"
+    },
+    {
+        "symbol": "WYY",
+        "buy_price": 0.82,
+        "sell_price": 0.9119,
+        "gain %": 11.207317073170744,
+        "time": "2020-06-17 15:09:03.527624"
+    },
+    {
+        "symbol": "ACHV",
+        "buy_price": 0.45,
+        "sell_price": 0.445,
+        "gain %": -1.111111111111112,
+        "time": "2020-06-17 15:13:13.358896"
+    },
+    {
+        "symbol": "WSTL",
+        "buy_price": 1.08,
+        "sell_price": 1.05,
+        "gain %": -2.77777777777778,
+        "time": "2020-06-17 15:14:43.302083"
+    },
+    {
+        "symbol": "TGA",
+        "buy_price": 0.5999,
+        "sell_price": 0.5899,
+        "gain %": -1.6669444907484596,
+        "time": "2020-06-17 15:26:00.645286"
+    },
+    {
+        "symbol": "ITP",
+        "buy_price": 0.538,
+        "sell_price": 0.5303,
+        "gain %": -1.431226765799264,
+        "time": "2020-06-17 15:31:50.363798"
+    },
+    {
+        "symbol": "MDLY",
+        "buy_price": 1.45,
+        "sell_price": 1.39,
+        "gain %": -4.1379310344827624,
+        "time": "2020-06-17 15:42:00.377010"
+    },
+    {
+        "symbol": "MYT",
+        "buy_price": 1.04,
+        "sell_price": 1.02,
+        "gain %": -1.9230769230769247,
+        "time": "2020-06-17 15:52:51.349603"
+    },
+    {
+        "symbol": "VTGN",
+        "buy_price": 0.55,
+        "sell_price": 0.5579,
+        "gain %": 1.4363636363636194,
+        "time": "2020-06-17 15:52:55.205026"
+    },
+    {
+        "symbol": "MCC",
+        "buy_price": 0.91,
+        "sell_price": 0.9399,
+        "gain %": 3.285714285714277,
+        "time": "2020-06-17 15:56:44.343244"
+    },
+    {
+        "symbol": "TANH",
+        "buy_price": 1.08,
+        "sell_price": 1.11,
+        "gain %": 2.77777777777778,
+        "time": "2020-06-17 16:01:01.181392"
+    },
+    {
+        "symbol": "PT",
+        "buy_price": 1.18,
+        "sell_price": 1.2,
+        "gain %": 1.6949152542372898,
+        "time": "2020-06-17 16:03:05.870681"
+    },
+    {
+        "symbol": "XPL",
+        "buy_price": 0.33,
+        "sell_price": 0.3,
+        "gain %": -9.090909090909099,
+        "time": "2020-06-17 16:05:27.530916"
+    },
+    {
+        "symbol": "XPL",
+        "buy_price": 0.33,
+        "sell_price": 0.32,
+        "gain %": -3.030303030303033,
+        "time": "2020-06-17 16:21:34.214876"
+    },
+    {
+        "symbol": "CBAT",
+        "buy_price": 0.746,
+        "sell_price": 0.76,
+        "gain %": 1.8766756032171599,
+        "time": "2020-06-18 10:29:23.643612"
+    },
+    {
+        "symbol": "SYN",
+        "buy_price": 0.5692,
+        "sell_price": 0.5772,
+        "gain %": 1.405481377371751,
+        "time": "2020-06-18 10:31:34.635884"
+    },
+    {
+        "symbol": "PACD",
+        "buy_price": 0.6343,
+        "sell_price": 0.647,
+        "gain %": 2.0022071574964597,
+        "time": "2020-06-18 10:35:45.147976"
+    },
+    {
+        "symbol": "BIOC",
+        "buy_price": 0.8095,
+        "sell_price": 0.8188,
+        "gain %": 1.1488573193329183,
+        "time": "2020-06-18 10:35:49.037414"
+    },
+    {
+        "symbol": "ANTE",
+        "buy_price": 1.06,
+        "sell_price": 1.08,
+        "gain %": 1.8867924528301903,
+        "time": "2020-06-18 10:35:53.169026"
+    },
+    {
+        "symbol": "FET",
+        "buy_price": 0.715,
+        "sell_price": 0.7298,
+        "gain %": 2.069930069930075,
+        "time": "2020-06-18 10:37:56.558421"
+    },
+    {
+        "symbol": "SUNW",
+        "buy_price": 0.7084,
+        "sell_price": 0.7199,
+        "gain %": 1.623376623376617,
+        "time": "2020-06-18 10:40:20.123544"
+    },
+    {
+        "symbol": "SPI",
+        "buy_price": 1.07,
+        "sell_price": 1.09,
+        "gain %": 1.8691588785046744,
+        "time": "2020-06-18 10:44:59.032212"
+    },
+    {
+        "symbol": "SXTC",
+        "buy_price": 0.491,
+        "sell_price": 0.496,
+        "gain %": 1.0183299389002045,
+        "time": "2020-06-18 10:49:45.100570"
+    },
+    {
+        "symbol": "BNGO",
+        "buy_price": 0.5343,
+        "sell_price": 0.5398,
+        "gain %": 1.0293842410630636,
+        "time": "2020-06-18 10:49:50.840534"
+    },
+    {
+        "symbol": "EMAN",
+        "buy_price": 0.925,
+        "sell_price": 0.9381,
+        "gain %": 1.4162162162162162,
+        "time": "2020-06-18 10:49:54.437377"
+    },
+    {
+        "symbol": "TGC",
+        "buy_price": 0.605,
+        "sell_price": 0.6961,
+        "gain %": 15.057851239669434,
+        "time": "2020-06-18 11:01:20.332887"
+    },
+    {
+        "symbol": "TTI",
+        "buy_price": 0.45,
+        "sell_price": 0.455,
+        "gain %": 1.111111111111112,
+        "time": "2020-06-18 11:01:23.597126"
+    },
+    {
+        "symbol": "BIOC",
+        "buy_price": 0.8742,
+        "sell_price": 0.8868,
+        "gain %": 1.4413177762525802,
+        "time": "2020-06-18 11:02:55.168839"
+    },
+    {
+        "symbol": "MOXC",
+        "buy_price": 1.02,
+        "sell_price": 1.08,
+        "gain %": 5.8823529411764754,
+        "time": "2020-06-18 11:08:56.061266"
+    },
+    {
+        "symbol": "JAGX",
+        "buy_price": 0.55,
+        "sell_price": 0.57,
+        "gain %": 3.636363636363619,
+        "time": "2020-06-18 11:11:58.054389"
+    },
+    {
+        "symbol": "GLBS",
+        "buy_price": 0.3745,
+        "sell_price": 0.381,
+        "gain %": 1.7356475300400547,
+        "time": "2020-06-18 11:16:35.537585"
+    },
+    {
+        "symbol": "NXTD",
+        "buy_price": 0.61,
+        "sell_price": 0.6169,
+        "gain %": 1.1311475409836094,
+        "time": "2020-06-18 11:22:34.068748"
+    },
+    {
+        "symbol": "SINO",
+        "buy_price": 0.5997,
+        "sell_price": 0.6199,
+        "gain %": 3.3683508420877097,
+        "time": "2020-06-18 11:51:57.746296"
+    },
+    {
+        "symbol": "JOB",
+        "buy_price": 0.4799,
+        "sell_price": 0.49,
+        "gain %": 2.1046051260679306,
+        "time": "2020-06-18 11:57:58.089838"
+    },
+    {
+        "symbol": "SSY",
+        "buy_price": 0.92,
+        "sell_price": 1.0,
+        "gain %": 8.69565217391304,
+        "time": "2020-06-18 11:58:02.928292"
+    },
+    {
+        "symbol": "JILL",
+        "buy_price": 0.78,
+        "sell_price": 0.8,
+        "gain %": 2.5641025641025665,
+        "time": "2020-06-18 12:23:42.165646"
+    },
+    {
+        "symbol": "HSDT",
+        "buy_price": 0.5077,
+        "sell_price": 0.5169,
+        "gain %": 1.8120937561552068,
+        "time": "2020-06-18 12:26:46.983883"
+    },
+    {
+        "symbol": "SXTC",
+        "buy_price": 0.53,
+        "sell_price": 0.5401,
+        "gain %": 1.90566037735849,
+        "time": "2020-06-18 12:37:18.162058"
+    },
+    {
+        "symbol": "SYN",
+        "buy_price": 0.62,
+        "sell_price": 0.629,
+        "gain %": 1.4516129032258078,
+        "time": "2020-06-18 12:40:12.440119"
+    },
+    {
+        "symbol": "IGC",
+        "buy_price": 0.6392,
+        "sell_price": 0.65,
+        "gain %": 1.6896120150187783,
+        "time": "2020-06-18 12:44:42.082248"
+    },
+    {
+        "symbol": "NTEC",
+        "buy_price": 0.36,
+        "sell_price": 0.365,
+        "gain %": 1.3888888888888902,
+        "time": "2020-06-18 12:48:50.759372"
+    },
+    {
+        "symbol": "SXTC",
+        "buy_price": 0.577,
+        "sell_price": 0.5844,
+        "gain %": 1.2824956672443801,
+        "time": "2020-06-18 12:57:12.745229"
+    },
+    {
+        "symbol": "TYHT",
+        "buy_price": 0.61,
+        "sell_price": 0.62,
+        "gain %": 1.6393442622950833,
+        "time": "2020-06-18 13:08:11.503891"
+    },
+    {
+        "symbol": "CBL",
+        "buy_price": 0.31,
+        "sell_price": 0.325,
+        "gain %": 4.8387096774193585,
+        "time": "2020-06-18 13:19:45.078216"
+    },
+    {
+        "symbol": "TAOP",
+        "buy_price": 0.508,
+        "sell_price": 0.52,
+        "gain %": 2.362204724409451,
+        "time": "2020-06-18 13:34:11.037720"
+    },
+    {
+        "symbol": "BIOC",
+        "buy_price": 0.955,
+        "sell_price": 0.975,
+        "gain %": 2.094240837696337,
+        "time": "2020-06-18 13:37:01.358724"
+    },
+    {
+        "symbol": "DXYN",
+        "buy_price": 0.89,
+        "sell_price": 0.9,
+        "gain %": 1.1235955056179785,
+        "time": "2020-06-18 13:49:52.236562"
+    },
+    {
+        "symbol": "SXTC",
+        "buy_price": 0.635,
+        "sell_price": 0.6459,
+        "gain %": 1.7165354330708693,
+        "time": "2020-06-18 14:25:53.298726"
+    },
+    {
+        "symbol": "INUV",
+        "buy_price": 0.638,
+        "sell_price": 0.649,
+        "gain %": 1.7241379310344842,
+        "time": "2020-06-18 14:31:43.530292"
+    },
+    {
+        "symbol": "JAKK",
+        "buy_price": 0.79,
+        "sell_price": 0.8,
+        "gain %": 1.2658227848101276,
+        "time": "2020-06-18 14:38:58.034687"
+    },
+    {
+        "symbol": "AIKI",
+        "buy_price": 0.8393,
+        "sell_price": 0.8498,
+        "gain %": 1.2510425354461996,
+        "time": "2020-06-18 14:39:01.323654"
+    },
+    {
+        "symbol": "CTRM",
+        "buy_price": 0.72,
+        "sell_price": 0.728,
+        "gain %": 1.1111111111111123,
+        "time": "2020-06-18 14:43:13.674910"
+    },
+    {
+        "symbol": "AMPE",
+        "buy_price": 0.5699,
+        "sell_price": 0.5797,
+        "gain %": 1.7195999298122533,
+        "time": "2020-06-18 14:45:57.946432"
+    },
+    {
+        "symbol": "GSAT",
+        "buy_price": 0.42,
+        "sell_price": 0.429,
+        "gain %": 2.142857142857145,
+        "time": "2020-06-18 14:56:52.197590"
+    },
+    {
+        "symbol": "SCON",
+        "buy_price": 0.45,
+        "sell_price": 0.465,
+        "gain %": 3.333333333333336,
+        "time": "2020-06-18 15:16:03.256385"
+    },
+    {
+        "symbol": "CPHI",
+        "buy_price": 0.688,
+        "sell_price": 0.698,
+        "gain %": 1.4534883720930247,
+        "time": "2020-06-18 15:17:36.012021"
+    },
+    {
+        "symbol": "SENS",
+        "buy_price": 0.4445,
+        "sell_price": 0.454,
+        "gain %": 2.137232845894265,
+        "time": "2020-06-18 15:30:59.076958"
+    },
+    {
+        "symbol": "ACST",
+        "buy_price": 0.8695,
+        "sell_price": 0.8826,
+        "gain %": 1.506612995974698,
+        "time": "2020-06-18 15:41:21.580010"
+    },
+    {
+        "symbol": "NBY",
+        "buy_price": 0.999,
+        "sell_price": 1.02,
+        "gain %": 2.102102102102104,
+        "time": "2020-06-18 15:42:56.920122"
+    },
+    {
+        "symbol": "SHIP",
+        "buy_price": 0.1938,
+        "sell_price": 0.1979,
+        "gain %": 2.1155830753353935,
+        "time": "2020-06-18 15:49:04.447964"
+    },
+    {
+        "symbol": "MYT",
+        "buy_price": 0.9999,
+        "sell_price": 1.04,
+        "gain %": 4.010401040104012,
+        "time": "2020-06-18 15:50:37.635145"
+    },
+    {
+        "symbol": "UAMY",
+        "buy_price": 0.5,
+        "sell_price": 0.52,
+        "gain %": 4.0000000000000036,
+        "time": "2020-06-18 15:54:20.107321"
+    },
+    {
+        "symbol": "TGA",
+        "buy_price": 0.5914,
+        "sell_price": 0.61,
+        "gain %": 3.1450794724382733,
+        "time": "2020-06-18 16:00:16.472636"
+    },
+    {
+        "symbol": "VERB",
+        "buy_price": 1.07,
+        "sell_price": 1.09,
+        "gain %": 1.8691588785046744,
+        "time": "2020-06-18 16:00:19.747797"
+    },
+    {
+        "symbol": "PER",
+        "buy_price": 0.544,
+        "sell_price": 0.55,
+        "gain %": 1.1029411764705892,
+        "time": "2020-06-18 16:00:24.268089"
+    },
+    {
+        "symbol": "STCN",
+        "buy_price": 0.675,
+        "sell_price": 0.69,
+        "gain %": 2.2222222222222077,
+        "time": "2020-06-18 16:00:27.582306"
+    },
+    {
+        "symbol": "HTGM",
+        "buy_price": 0.76,
+        "sell_price": 0.82,
+        "gain %": 7.894736842105256,
+        "time": "2020-06-18 16:02:07.721409"
+    },
+    {
+        "symbol": "LLIT",
+        "buy_price": 0.71,
+        "sell_price": 0.72,
+        "gain %": 1.4084507042253533,
+        "time": "2020-06-18 16:14:21.670028"
+    },
+    {
+        "symbol": "MCC",
+        "buy_price": 0.91,
+        "sell_price": 0.93,
+        "gain %": 2.1978021978021998,
+        "time": "2020-06-18 16:17:25.848242"
+    },
+    {
+        "symbol": "BRN",
+        "buy_price": 0.83,
+        "sell_price": 0.8799,
+        "gain %": 6.012048192771092,
+        "time": "2020-06-18 16:35:36.785045"
+    },
+    {
+        "symbol": "LLEX",
+        "buy_price": 0.261,
+        "sell_price": 0.266,
+        "gain %": 1.915708812260538,
+        "time": "2020-06-18 17:00:58.318882"
+    }
+]
