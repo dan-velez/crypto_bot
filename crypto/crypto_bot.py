@@ -6,6 +6,7 @@ crypto_bot.py COMMAND OPTIONS
 
 COMMAND
     exchanges --outfile STRING
+    exchanges size [ALL | STRING]
     backtest --hist_file STRING
     tickers --exchange STRING --max_price FLOAT
     history --exchange STRING --symbol STRING --start STRING --end STRING --dir STRING

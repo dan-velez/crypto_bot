@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 # crypto_get_hist_data.py - Use CCXT lib to retrieve data on tickers.
 # TODO:
-#   automate downloading of tickers
-#   automate find tickers with greatest change % since day start
-#   backtest on those tickers...
-#   implement strategy along way
+#   download tickers as JSON array
+#   create function: get_hist_all (vexchange, vtickers, vtimeframe='1m')
+#   run functions
+#   automate find tickers with greatest change % since day star
+#   backtest on selected tickers
 
 import json
 import datetime
