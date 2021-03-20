@@ -1,6 +1,7 @@
 # crypto trading #
 * 24/7 market
 * No PDT
+    * Can trade consistently with as little amount of money
 * 1,000s of currencies
 * ~125 exchanges
 * Buy/Sell currencies between exchanges

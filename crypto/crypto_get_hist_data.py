@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 # crypto_get_hist_data.py - Use CCXT lib to retrieve data on tickers.
-# TODO: Parse as JSON instead of CSV.
+# TODO:
+#   automate downloading of tickers
+#   automate find tickers with greatest change % since day start
+#   backtest on those tickers...
+#   implement strategy along way
 
 import json
 import datetime
@@ -13,7 +17,7 @@ import ccxt
 
 # DATA FEED FROM EXCHANGE
 exchange = str('binance')
-symbol = str('AAVE/BTC')
+symbol = str('ARK/ETH')
 timeframe = str('1m')
 exchange_out = str(exchange)
 start_date = str('2021-03-19 00:00:00')
@@ -28,10 +32,10 @@ def to_unix_time(timestamp):
     delta = my_time - epoch
     return delta.total_seconds() * 1000
 
+
 # File Name
 symbol_out = symbol.replace("/", "")
 filename = './historical/{}-{}-{}.json'.format(exchange_out, symbol_out, timeframe)
-
 
 # Get our Exchange
 exchange = getattr(ccxt, exchange)()
@@ -39,11 +43,19 @@ exchange.load_markets()
 hist_start_date = int(to_unix_time(start_date))
 
 data = exchange.fetch_ohlcv(symbol, timeframe, since=hist_start_date)
-vres = []
+if len(data) == 0:
+    print("[* crypto_get_hist_data] No data found for %s" % symbol)
+    import sys
+    sys.exit()
+
+vres = {
+    "initial": data[0][1],
+    "history": []
+}
 
 # Parse to JSON
 for vbar in data:
-    vres.append({
+    vres['history'].append({
         'timestamp': str(pd.to_datetime(vbar[0], unit='ms')),
         'open': vbar[1],
         'high': vbar[2],
