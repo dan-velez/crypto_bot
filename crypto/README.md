@@ -1,9 +1,14 @@
-# crypto trading #
+# crypto-bot #
+Bot created using CCXT lib, runs automations for creating, 
+testing, and live running cryoto trading strategies.
+
+
+## notes ##
 * 24/7 market
 * No PDT
     * Can trade consistently with as little amount of money
 * 1,000s of currencies
-* ~125 exchanges
+* ~125 exchanges on CCXT lib (504 in total)
 * Buy/Sell currencies between exchanges
 * Need to have a **wallet**
 * Crypto currency markets are decentralized
@@ -15,12 +20,22 @@
 * New cryptocurrency tokens are created also via 'mining'
 * Free from **economical and political concerns**.
 
+```bash
+# create `crypto-bot` CLI and finish automation scripts
+# automations for data scraping
+# get correct tickers with parameters
+# get history of ticker with parameter
+# from CLI...
+# start with get_tickers, then get_hist, then backtest, then crypto-bot
+# create all crypto-bot components, then create the CLI.
+```
+
 
 ## todo ##
 * write algo using just data file.
     * Complete custom bot using custom data format and API
 
-* `crypto-bot` -> Maybe join all files into **1 bot program**.
+* `crypto-bot` -> imports all files into **1 bot program**.
     * Use `argparse` library to design program interface. (TAOUP)
 
 

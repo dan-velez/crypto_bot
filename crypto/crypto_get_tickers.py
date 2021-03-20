@@ -36,10 +36,16 @@ def print_exchange_sizes ():
             print("[*] Could not load exchange %s." % vex)
 
 
-def get_tickers (vexchange):
+def get_tickers (vexchange, vmax_price, vmin_change, vsave=True):
     # Retrieve all symbols as open price.
     # Save to designated JSON path.
     return
+
+
+def change_in_day (vsymb):
+    # Returns the change % of a symbol in past 24 hours.
+    vres = 0
+    return vres
 
 
 if __name__ == "__main__":
@@ -62,24 +68,28 @@ if __name__ == "__main__":
     vres = []
     for vsymb_text in exchange.symbols:
         try:
-            vsymb = exchange.fetch_ohlcv(vsymb_text)
+            vbars = exchange.fetch_ohlcv(vsymb_text)
         except Exception as e:
             print("[* crypto_get_tickers] Cannot fetch %s : %s" 
                     % (vsymb_text, e))
             continue
 
         print('[* crypto_get_tickers] Fetched symbol %s' % vsymb_text)
-        vdate = pd.to_datetime(vsymb[0][0], unit='ms')
-        vclose = vsymb[0][-2]
-        if vclose < 0.50:
+        print("[* crypto_get_tickers] Num bars for %s: %s" % (vsymb_text, len(vbars)))
+        print()
+
+        vdate = pd.to_datetime(vbars[0][0], unit='ms')
+        vclose = vbars[0][-2]
+        # TODO: Get 24 hour change %.
+        if vclose < 0.50: # && vchange % > 5
             vres.append({
                 'symbol': vsymb_text,
-                'timestamp': vdate,
+                'timestamp': str(vdate),
                 'close': vclose
             })
 
     # Write out results.
-    print("[* crypto_get_tickers] %s tickers downloaded." % len(exchange.symbols))
+    print("[* crypto_get_tickers] %s tickers downloaded." % len(vres))
     vfname = "./data/tickers_%s.json" % sys.argv[1]
     open(vfname, 'w+').write(json.dumps(vres, indent=4))
 
