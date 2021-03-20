@@ -12,7 +12,7 @@ def backtest (fnopen, fnclose, vhist):
 
     for vbar in vhist:
         vsymb = vbar['symbol']
-        print("[* crypto_backtest] Process bar: %s" % vsymb)
+        print("[* crypto_backtest] %s @ %s" % (vsymb, vbar['close']))
         if is_open(vsymb):
             if should_close(): sell(vsymb, vtrade_quantity)
 

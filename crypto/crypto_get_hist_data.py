@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # crypto_get_hist_data.py - Use CCXT lib to retrieve data on tickers.
 # TODO: Parse as JSON instead of CSV.
 
@@ -29,7 +30,7 @@ def to_unix_time(timestamp):
 
 # File Name
 symbol_out = symbol.replace("/", "")
-filename = '.\\historical\\{}-{}-{}.json'.format(exchange_out, symbol_out, timeframe)
+filename = './historical/{}-{}-{}.json'.format(exchange_out, symbol_out, timeframe)
 
 
 # Get our Exchange
@@ -47,7 +48,8 @@ for vbar in data:
         'open': vbar[1],
         'high': vbar[2],
         'low': vbar[3],
-        'close': vbar[4]
+        'close': vbar[4],
+        'symbol': symbol
     })
 
 print(len(data))
