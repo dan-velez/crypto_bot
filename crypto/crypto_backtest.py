@@ -1,5 +1,5 @@
+#!/usr/bin/python3
 # crypto_backtest.py - Backtest on historical data.
-# TODO: Finish datascrapers and integrate, incremental testing.
 
 import json
 
@@ -12,6 +12,7 @@ def backtest (fnopen, fnclose, vhist):
 
     for vbar in vhist:
         vsymb = vbar['symbol']
+        print("[* crypto_backtest] Process bar: %s" % vsymb)
         if is_open(vsymb):
             if should_close(): sell(vsymb, vtrade_quantity)
 
@@ -43,14 +44,20 @@ def sell (vsym, vqty):
     return
 
 
+def port_has_asset ():
+    # Return wether portfolio contains a certain asset
+    return False
+
+
 ## Strategy ####################################################################
 
 def should_open (vsymb, vhist):
-    return
+    vhave = port_has_asset(vsymb)
+    return False
 
 
 def should_close (vsymb, vhist):
-    return
+    return False
 
 
 ## CLI #########################################################################
@@ -58,11 +65,7 @@ def should_close (vsymb, vhist):
 if __name__ == "__main__":
     import sys
 
-    # TODO: Data scraper should output to json.
-    # TODO: Can generate a paper account to test live trading.
     # TODO: crypto_broker_paper.py , crypto_broker_live.py
-
-    # TODO: Need wallet and account to test private API + live trading.
 
     # TODO: Examine different market prices for same symbol
     # TODO: Keep hash table for fast lookup. Go down list of pairs. 
@@ -76,4 +79,4 @@ if __name__ == "__main__":
     vhist_file = sys.argv[1]
     vjson_hist = json.loads(open(vhist_file, 'r').read())
     print("[* crypto_backtest] %s bars available." % len(vjson_hist))
-    # backtest(should_open, should_close, vjson_hist)
+    backtest(should_open, should_close, vjson_hist)

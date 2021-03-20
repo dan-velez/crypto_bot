@@ -1,4 +1,6 @@
+#!/usr/bin/python
 # crypto_bot.py - CLI for crypto trader scripts.
+
 """
 crypto_bot.py COMMAND OPTIONS
 
