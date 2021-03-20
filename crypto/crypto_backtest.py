@@ -17,9 +17,9 @@ def backtest (fnopen, fnclose, vhist):
             if should_close(): sell(vsymb, vtrade_quantity)
 
         else:
-            if should_open(): buy(vsymb, vtrade_quantity)
+            if should_open(vsymb, vhist): buy(vsymb, vtrade_quantity)
     
-    print(vportfolio_total)
+    print(port_total())
 
 
 ## Paper Broker ################################################################
@@ -31,11 +31,14 @@ vportfolio = {
 
 def is_open (vsym):
     # Return true if there is an open position on this symbol.
+    for vasset in vportfolio['assets']:
+        if vasset['symbol'] == vsym: return True
     return False
 
 
 def buy (vsym, vqty):
     # Open a position on symbol for vqty shares.
+
     return
 
 
@@ -44,9 +47,14 @@ def sell (vsym, vqty):
     return
 
 
-def port_has_asset ():
+def port_has_asset (vsymb):
     # Return wether portfolio contains a certain asset
     return False
+
+
+def port_total():
+    # Returns total value of portfolio for this broker.
+    return vportfolio['total_value']
 
 
 ## Strategy ####################################################################

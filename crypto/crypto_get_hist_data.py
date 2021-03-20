@@ -13,10 +13,10 @@ import ccxt
 
 # DATA FEED FROM EXCHANGE
 exchange = str('binance')
-symbol = str('BTC/USDT')
+symbol = str('AAVE/BTC')
 timeframe = str('1m')
 exchange_out = str(exchange)
-start_date = str('2021-03-17 00:00:00')
+start_date = str('2021-03-19 00:00:00')
 get_data = True
 
 

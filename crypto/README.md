@@ -16,11 +16,11 @@
 
 
 ## todo ##
-* get symbols list
-* get historical data
 * write algo using just data file.
-* Maybe join all files into **1 bot program**.
-* Use `argparse` library to design program interface. (TAOUP)
+    * Complete custom bot using custom data format and API
+
+* `crypto-bot` -> Maybe join all files into **1 bot program**.
+    * Use `argparse` library to design program interface. (TAOUP)
 
 
 ## exchanges ##
