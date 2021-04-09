@@ -11,50 +11,100 @@ import json
 
 import ccxt
 import pandas as pd
+from termcolor import colored
 
 
-def print_exchange_sizes ():
-    # Print sizes for ALL exchanges.
+def get_exchanges (voutfile=None, vprint=True):
+    # Retrieve metadata from exchanges. Optionally print to 
+    # stdout and write to file. (binance, kraken, etc.)
+    vres = []
+
     for vex in ccxt.exchanges:
         try:
+            # Get exchange data.
             exchange = getattr(ccxt, vex)()
-            # exchange = getattr(ccxt, 'binance')()
-            # exchange = getattr(ccxt, 'kraken')()
             exchange.load_markets()
-            # print(exchange.symbols)
-            print("%s\t\t%s" % (vex, len(exchange.symbols)))
+            vcoins_under = len(
+                coins_in_range(exchange, 0, 0.50))
+
+            # Print output.
+            print("[* exchanges] Name: %s" % vex)
+            print("[* exchanges] Size: %s" 
+                   % len(exchange.symbols))
+            print("[* exchanges] Coins under $0.50: %s"
+                    % vcoins_under)
+            print("")
+
+            # Add to output struct.
+            vres.append({
+                "name": vex,
+                "size": len(exchange.symbols),
+                "coins_under_50_cents": vcoins_under
+            })
+
         except Exception as e:
-            print("[*] Could not load exchange %s." % vex)
+            print("[* exchanges] Could not load exchange %s."
+                  % vex)
+            print(e)
+            print("")
+
+    print("[* exchanges] Total exchanges: %s" 
+          % len(ccxt.exchanges))
+
+    # Write sorted to output file.
+    if voutfile:
+        vres = sorted(vres, 
+               key=lambda x: x['coins_under_50_cents'])
+        open(voutfile, 'w+').write(
+            json.dumps(voutfile, indent=4))
+        print("[* exchanges] Wrote out %s." % voutfile)
+
+    return vres
 
 
-def change_in_day (vsymb):
+def change_in_day (vex, vsymb):
     # Returns the change % of a symbol in past 24 hours.
     vres = 0
     return vres
 
 
-def get_tickers (vexchange, vmax_price, vmin_change):
+def coins_in_range (vex, vmin, vmax):
+    # Return the coins within a price range of an exchange.
+    # vex should have market loaded already.
+    vres = []
+    for vsymb_text in vex.symbols:
+        try:
+            vbars = vex.fetch_ohlcv(vsymb_text)
+            print(len(vbars))
+            vclose = vbars[-1][-2]
+            if vclose < vmax and vclose > vmin:
+                vres.append({
+                    'symbol': vsymb_text,
+                    'close': vclose
+                })
+        except Exception as e:
+            # print("coins in range exception: %s" % e)
+            continue
+
+    return vres
+
+
+def get_tickers (vexchange, vmin_price, vmax_price, vmin_change):
     # Get tickers which fall in a certain price range.
     # Retrieve all symbols as open price.
     # Save to designated JSON path.
-    return
-
-
-if __name__ == "__main__":
-    import sys
-
-    if len(sys.argv) < 2:
-        print("[*] Usage: crypto_get_tickers <EXCHANGE NAME>")
-        sys.exit()
 
     # Fetch symbols from exchange.
     exchange = getattr(ccxt, sys.argv[1])()
     exchange.load_markets()
+
+    # No symbols found.
     if len(exchange.symbols) == 0:
-        print("[* crypto_get_tickers] No tickers found on"+
+        print("[* tickers] No tickers found on"+
                 " exchange %s." % sys.argv[1])
         sys.exit()
-    print("[* crypto_get_tickers] found %s symbols." 
+
+    print("[* tickers] found %s symbols." 
             % len(exchange.symbols))
 
     # Filter symbols by close price < $0.50
@@ -88,3 +138,10 @@ if __name__ == "__main__":
             % len(vres))
     vfname = "./data/tickers_%s.json" % sys.argv[1]
     open(vfname, 'w+').write(json.dumps(vres, indent=4))
+
+
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) < 2:
+        print("[*] Usage: crypto_exchanges <EXCHANGE NAME>")
+        sys.exit()

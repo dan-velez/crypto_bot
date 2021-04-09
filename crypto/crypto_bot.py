@@ -4,6 +4,8 @@
 import sys
 import argparse
 
+import crypto_exchanges
+
 """
 crypto_bot.py <command> [<args>]
 
@@ -32,42 +34,56 @@ def parser_subcommands ():
         dest='command')
 
     # By default, exchanges will show all exchanges with 
-    # metadata (name, size, num under .50)
+    # metadata (name, size, num coins under $0.50)
     vparser_exchanges = subparsers.add_parser(
         'exchanges',
         help='Download information on available exchanges.')
 
+    vparser_exchanges.add_argument(
+        '-o',
+        '--outfile',
+        required=False,
+        help='Optionally output data as JSON to a file.')
+
     # Use tickers to further probe exchange prices.
+    # Can input certain filters.
     vparser_tickers = subparsers.add_parser(
         'tickers',
         help='Download OHLCV data on tickers of an exchange.')
+
+    vparser_tickers.add_argument(
+        '-x',
+        '--exchange',
+        required=True,
+        help='The exchange of which to download tickers.')
 
     # Select a file wit OPEN/CLOSE functions
     vparser_backtest = subparsers.add_parser(
         'backtest', 
         help='Backtest a strategy on historical data.')
+
     vparser_backtest.add_argument(
         'hist_file', 
         help='The JSON data of a ticker, previously generated.',
         type=str)
 
-    """
-    vparser_backtest.set_defaults(backtest=True)
-
-    parser_2.set_defaults(exchanges=True)
-
-    parser_3 = subparsers.add_parser('tickers', help='...')
-    parser_3.add_argument('cmd3_options', type=int, help='...')
-    parser_3.set_defaults(tickers=True)
-    """
-
     # Parse args.
-    if len(sys.argv) < 3:
-        parser.print_help(sys.stderr)
-        sys.exit(1)
+    # if len(sys.argv) < 3:
+    #   parser.print_help(sys.stderr)
+    #   sys.exit(1)
 
     vargs = parser.parse_args()
-    print(vargs.command)
+
+    try:
+        # Run command.
+        if vargs.command == "exchanges":
+            print("[* bot] Fetching exchanges with metadata...")
+            print()
+            crypto_exchanges.get_exchanges(
+                voutfile=vargs.outfile, vprint=True)
+    except KeyboardInterrupt:
+        print("[* bot] Exiting. Goodbye!")
+        sys.exit(1)
 
 
 def parser_tutorial ():
