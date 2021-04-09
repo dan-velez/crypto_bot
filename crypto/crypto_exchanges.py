@@ -1,9 +1,10 @@
-#!/usr/bin/python3
-# crypto_get_tickers.py - retrieve tickers from different exchanges.
-# TODO: 
-#   Retrieve full name of currencys
-#   Read more about what crypto trading is, blockchain, and what are
-#   cryptocurrencies.
+#!/usr/bin/python
+# crypto_get_tickers.py - retrieve tickers from different 
+# exchanges.
+#
+# Use this script to select exchanges to use for historical
+# data fetching as well as wallet selection. Find exchange
+# with 'penny' currencies and high volitility.
 
 from datetime import datetime
 import json
@@ -11,19 +12,9 @@ import json
 import ccxt
 import pandas as pd
 
-# Login to Binance using API Key. Use in broker.
-# from variable id
-# exchange_id = 'binance'
-# exchange_class = getattr(ccxt, exchange_id)
-# exchange = exchange_class({
-#     'apiKey': 'YOUR_API_KEY',
-#     'secret': 'YOUR_SECRET',
-#     'timeout': 30000,
-#     'enableRateLimit': True,
-# })
-
 
 def print_exchange_sizes ():
+    # Print sizes for ALL exchanges.
     for vex in ccxt.exchanges:
         try:
             exchange = getattr(ccxt, vex)()
@@ -36,16 +27,17 @@ def print_exchange_sizes ():
             print("[*] Could not load exchange %s." % vex)
 
 
-def get_tickers (vexchange, vmax_price, vmin_change, vsave=True):
-    # Retrieve all symbols as open price.
-    # Save to designated JSON path.
-    return
-
-
 def change_in_day (vsymb):
     # Returns the change % of a symbol in past 24 hours.
     vres = 0
     return vres
+
+
+def get_tickers (vexchange, vmax_price, vmin_change):
+    # Get tickers which fall in a certain price range.
+    # Retrieve all symbols as open price.
+    # Save to designated JSON path.
+    return
 
 
 if __name__ == "__main__":
@@ -59,10 +51,11 @@ if __name__ == "__main__":
     exchange = getattr(ccxt, sys.argv[1])()
     exchange.load_markets()
     if len(exchange.symbols) == 0:
-        print("[* crypto_get_tickers] No tickers found on exchange %s." 
-                % sys.argv[1])
+        print("[* crypto_get_tickers] No tickers found on"+
+                " exchange %s." % sys.argv[1])
         sys.exit()
-    print("[* crypto_get_tickers] found %s symbols." % len(exchange.symbols))
+    print("[* crypto_get_tickers] found %s symbols." 
+            % len(exchange.symbols))
 
     # Filter symbols by close price < $0.50
     vres = []
@@ -74,8 +67,10 @@ if __name__ == "__main__":
                     % (vsymb_text, e))
             continue
 
-        print('[* crypto_get_tickers] Fetched symbol %s' % vsymb_text)
-        print("[* crypto_get_tickers] Num bars for %s: %s" % (vsymb_text, len(vbars)))
+        print('[* crypto_get_tickers] Fetched symbol %s' 
+                % vsymb_text)
+        print("[* crypto_get_tickers] Num bars for %s: %s" 
+                % (vsymb_text, len(vbars)))
         print()
 
         vdate = pd.to_datetime(vbars[0][0], unit='ms')
@@ -89,7 +84,7 @@ if __name__ == "__main__":
             })
 
     # Write out results.
-    print("[* crypto_get_tickers] %s tickers downloaded." % len(vres))
+    print("[* crypto_get_tickers] %s tickers downloaded." 
+            % len(vres))
     vfname = "./data/tickers_%s.json" % sys.argv[1]
     open(vfname, 'w+').write(json.dumps(vres, indent=4))
-

@@ -20,23 +20,13 @@ testing, and live running cryoto trading strategies.
 * New cryptocurrency tokens are created also via 'mining'
 * Free from **economical and political concerns**.
 
-```bash
-# create `crypto-bot` CLI and finish automation scripts
-# automations for data scraping
-# get correct tickers with parameters
-# get history of ticker with parameter
-# from CLI...
-# start with get_tickers, then get_hist, then backtest, then crypto-bot
-# create all crypto-bot components, then create the CLI.
-```
-
 
 ## todo ##
 * write algo using just data file.
     * Complete custom bot using custom data format and API
 
 * `crypto-bot` -> imports all files into **1 bot program**.
-    * Use `argparse` library to design program interface. (TAOUP)
+* Use `argparse` library to design program interface. (TAOUP)
 
 
 ## exchanges ##
@@ -78,3 +68,27 @@ testing, and live running cryoto trading strategies.
 ## positions ##
 * short means to sell
 * long means to buy
+
+
+## market making bots ##
+* place several buy and sell orders to net in a quick profit.
+* implements several indicators and trading strategies.
+
+
+## adding wallet to broker ##
+```
+# Login to Binance using API Key. Use in broker.
+# from variable id
+# exchange_id = 'binance'
+# exchange_class = getattr(ccxt, exchange_id)
+# exchange = exchange_class({
+#     'apiKey': 'YOUR_API_KEY',
+#     'secret': 'YOUR_SECRET',
+#     'timeout': 30000,
+#     'enableRateLimit': True,
+# })
+```
+1. Open wallet
+2. Connect bank account
+3. Sign up for exchange
+4. Place order for currency
