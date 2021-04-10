@@ -103,7 +103,7 @@ def get_tickers (vexchange, vmin_price, vmax_price, vmin_change):
     # Save to designated JSON path.
 
     # Fetch symbols from exchange.
-    exchange = getattr(ccxt, sys.argv[1])()
+    exchange = getattr(ccxt, vexchange)()
     exchange.load_markets()
 
     # No symbols found.
@@ -132,19 +132,20 @@ def get_tickers (vexchange, vmin_price, vmax_price, vmin_change):
         print()
 
         vdate = pd.to_datetime(vbars[0][0], unit='ms')
-        vclose = vbars[0][-2]
+        vclose = vbars[-1][-2]
         # TODO: Get 24 hour change %.
         if vclose < 0.50: # && vchange % > 5
             vres.append({
                 'symbol': vsymb_text,
                 'timestamp': str(vdate),
-                'close': vclose
+                'close': vclose,
+                'volume': vbars[-1][-1]
             })
 
     # Write out results.
     print("[* crypto_get_tickers] %s tickers downloaded." 
             % len(vres))
-    vfname = "./data/tickers_%s.json" % sys.argv[1]
+    vfname = "./data/tickers_%s.json" % vexchange
     open(vfname, 'w+').write(json.dumps(vres, indent=4))
 
 

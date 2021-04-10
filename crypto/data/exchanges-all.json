@@ -1,0 +1,567 @@
+[
+    {
+        "name": "yobit",
+        "size": 8765,
+        "coins_under_50_cents": 7394
+    },
+    {
+        "name": "latoken",
+        "size": 1714,
+        "coins_under_50_cents": 1222
+    },
+    {
+        "name": "hitbtc",
+        "size": 1134,
+        "coins_under_50_cents": 904
+    },
+    {
+        "name": "gateio",
+        "size": 1396,
+        "coins_under_50_cents": 886
+    },
+    {
+        "name": "crex24",
+        "size": 1651,
+        "coins_under_50_cents": 866
+    },
+    {
+        "name": "binance",
+        "size": 1386,
+        "coins_under_50_cents": 841
+    },
+    {
+        "name": "okex",
+        "size": 1449,
+        "coins_under_50_cents": 785
+    },
+    {
+        "name": "huobipro",
+        "size": 937,
+        "coins_under_50_cents": 678
+    },
+    {
+        "name": "bittrex",
+        "size": 755,
+        "coins_under_50_cents": 539
+    },
+    {
+        "name": "stex",
+        "size": 532,
+        "coins_under_50_cents": 489
+    },
+    {
+        "name": "kucoin",
+        "size": 621,
+        "coins_under_50_cents": 440
+    },
+    {
+        "name": "cdax",
+        "size": 475,
+        "coins_under_50_cents": 329
+    },
+    {
+        "name": "bitmart",
+        "size": 415,
+        "coins_under_50_cents": 286
+    },
+    {
+        "name": "coinex",
+        "size": 437,
+        "coins_under_50_cents": 272
+    },
+    {
+        "name": "probit",
+        "size": 1103,
+        "coins_under_50_cents": 235
+    },
+    {
+        "name": "liquid",
+        "size": 361,
+        "coins_under_50_cents": 207
+    },
+    {
+        "name": "southxchange",
+        "size": 623,
+        "coins_under_50_cents": 180
+    },
+    {
+        "name": "digifinex",
+        "size": 234,
+        "coins_under_50_cents": 175
+    },
+    {
+        "name": "bitforex",
+        "size": 231,
+        "coins_under_50_cents": 170
+    },
+    {
+        "name": "upbit",
+        "size": 292,
+        "coins_under_50_cents": 164
+    },
+    {
+        "name": "bibox",
+        "size": 285,
+        "coins_under_50_cents": 158
+    },
+    {
+        "name": "bitcoincom",
+        "size": 213,
+        "coins_under_50_cents": 156
+    },
+    {
+        "name": "ftx",
+        "size": 676,
+        "coins_under_50_cents": 148
+    },
+    {
+        "name": "poloniex",
+        "size": 319,
+        "coins_under_50_cents": 143
+    },
+    {
+        "name": "coinegg",
+        "size": 160,
+        "coins_under_50_cents": 142
+    },
+    {
+        "name": "hbtc",
+        "size": 1059,
+        "coins_under_50_cents": 140
+    },
+    {
+        "name": "lykke",
+        "size": 216,
+        "coins_under_50_cents": 135
+    },
+    {
+        "name": "bigone",
+        "size": 245,
+        "coins_under_50_cents": 135
+    },
+    {
+        "name": "bitfinex",
+        "size": 315,
+        "coins_under_50_cents": 128
+    },
+    {
+        "name": "bitmax",
+        "size": 334,
+        "coins_under_50_cents": 116
+    },
+    {
+        "name": "vcc",
+        "size": 275,
+        "coins_under_50_cents": 109
+    },
+    {
+        "name": "kraken",
+        "size": 304,
+        "coins_under_50_cents": 101
+    },
+    {
+        "name": "whitebit",
+        "size": 185,
+        "coins_under_50_cents": 97
+    },
+    {
+        "name": "bitz",
+        "size": 192,
+        "coins_under_50_cents": 96
+    },
+    {
+        "name": "aofex",
+        "size": 351,
+        "coins_under_50_cents": 92
+    },
+    {
+        "name": "exx",
+        "size": 158,
+        "coins_under_50_cents": 91
+    },
+    {
+        "name": "bitvavo",
+        "size": 151,
+        "coins_under_50_cents": 85
+    },
+    {
+        "name": "btcalpha",
+        "size": 117,
+        "coins_under_50_cents": 83
+    },
+    {
+        "name": "idex",
+        "size": 162,
+        "coins_under_50_cents": 77
+    },
+    {
+        "name": "bitbay",
+        "size": 195,
+        "coins_under_50_cents": 77
+    },
+    {
+        "name": "bequant",
+        "size": 184,
+        "coins_under_50_cents": 77
+    },
+    {
+        "name": "bitfinex2",
+        "size": 315,
+        "coins_under_50_cents": 71
+    },
+    {
+        "name": "bw",
+        "size": 91,
+        "coins_under_50_cents": 65
+    },
+    {
+        "name": "qtrade",
+        "size": 52,
+        "coins_under_50_cents": 45
+    },
+    {
+        "name": "cex",
+        "size": 198,
+        "coins_under_50_cents": 45
+    },
+    {
+        "name": "oceanex",
+        "size": 92,
+        "coins_under_50_cents": 40
+    },
+    {
+        "name": "novadax",
+        "size": 82,
+        "coins_under_50_cents": 36
+    },
+    {
+        "name": "delta",
+        "size": 264,
+        "coins_under_50_cents": 33
+    },
+    {
+        "name": "binanceus",
+        "size": 109,
+        "coins_under_50_cents": 31
+    },
+    {
+        "name": "bytetrade",
+        "size": 634,
+        "coins_under_50_cents": 30
+    },
+    {
+        "name": "aax",
+        "size": 115,
+        "coins_under_50_cents": 30
+    },
+    {
+        "name": "bitkk",
+        "size": 173,
+        "coins_under_50_cents": 22
+    },
+    {
+        "name": "tidex",
+        "size": 381,
+        "coins_under_50_cents": 18
+    },
+    {
+        "name": "zb",
+        "size": 171,
+        "coins_under_50_cents": 17
+    },
+    {
+        "name": "currencycom",
+        "size": 1589,
+        "coins_under_50_cents": 17
+    },
+    {
+        "name": "gemini",
+        "size": 57,
+        "coins_under_50_cents": 16
+    },
+    {
+        "name": "bitmex",
+        "size": 175,
+        "coins_under_50_cents": 15
+    },
+    {
+        "name": "coinbasepro",
+        "size": 162,
+        "coins_under_50_cents": 14
+    },
+    {
+        "name": "acx",
+        "size": 27,
+        "coins_under_50_cents": 14
+    },
+    {
+        "name": "coinfalcon",
+        "size": 17,
+        "coins_under_50_cents": 13
+    },
+    {
+        "name": "zaif",
+        "size": 30,
+        "coins_under_50_cents": 11
+    },
+    {
+        "name": "huobijp",
+        "size": 26,
+        "coins_under_50_cents": 11
+    },
+    {
+        "name": "therock",
+        "size": 23,
+        "coins_under_50_cents": 9
+    },
+    {
+        "name": "coinbaseprime",
+        "size": 162,
+        "coins_under_50_cents": 9
+    },
+    {
+        "name": "braziliex",
+        "size": 81,
+        "coins_under_50_cents": 8
+    },
+    {
+        "name": "bitso",
+        "size": 24,
+        "coins_under_50_cents": 7
+    },
+    {
+        "name": "bitbank",
+        "size": 15,
+        "coins_under_50_cents": 7
+    },
+    {
+        "name": "gopax",
+        "size": 104,
+        "coins_under_50_cents": 6
+    },
+    {
+        "name": "bitget",
+        "size": 39,
+        "coins_under_50_cents": 6
+    },
+    {
+        "name": "okcoin",
+        "size": 33,
+        "coins_under_50_cents": 4
+    },
+    {
+        "name": "indodax",
+        "size": 127,
+        "coins_under_50_cents": 4
+    },
+    {
+        "name": "bitpanda",
+        "size": 19,
+        "coins_under_50_cents": 4
+    },
+    {
+        "name": "luno",
+        "size": 29,
+        "coins_under_50_cents": 3
+    },
+    {
+        "name": "btcmarkets",
+        "size": 21,
+        "coins_under_50_cents": 3
+    },
+    {
+        "name": "wavesexchange",
+        "size": 148,
+        "coins_under_50_cents": 2
+    },
+    {
+        "name": "mixcoins",
+        "size": 6,
+        "coins_under_50_cents": 2
+    },
+    {
+        "name": "bitflyer",
+        "size": 14,
+        "coins_under_50_cents": 2
+    },
+    {
+        "name": "ripio",
+        "size": 14,
+        "coins_under_50_cents": 1
+    },
+    {
+        "name": "kuna",
+        "size": 33,
+        "coins_under_50_cents": 1
+    },
+    {
+        "name": "equos",
+        "size": 8,
+        "coins_under_50_cents": 1
+    },
+    {
+        "name": "vbtc",
+        "size": 5,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "timex",
+        "size": 27,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "surbitcoin",
+        "size": 5,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "rightbtc",
+        "size": 72,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "phemex",
+        "size": 28,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "paymium",
+        "size": 1,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "ndax",
+        "size": 15,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "mercado",
+        "size": 26,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "lbank",
+        "size": 331,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "lakebtc",
+        "size": 16,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "itbit",
+        "size": 9,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "independentreserve",
+        "size": 96,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "hollaex",
+        "size": 8,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "foxbit",
+        "size": 5,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "exmo",
+        "size": 190,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "eterbase",
+        "size": 10,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "deribit",
+        "size": 832,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "coinspot",
+        "size": 13,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "coinone",
+        "size": 181,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "coinmate",
+        "size": 20,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "coinfloor",
+        "size": 2,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "coincheck",
+        "size": 5,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "coinbase",
+        "size": 9075,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "chilebit",
+        "size": 5,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "bybit",
+        "size": 15,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "btctradeua",
+        "size": 17,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "btcbox",
+        "size": 4,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "bleutrade",
+        "size": 26,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "bl3p",
+        "size": 2,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "bitstamp1",
+        "size": 12,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "bitstamp",
+        "size": 56,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "bithumb",
+        "size": 195,
+        "coins_under_50_cents": 0
+    },
+    {
+        "name": "bit2c",
+        "size": 8,
+        "coins_under_50_cents": 0
+    }
+]

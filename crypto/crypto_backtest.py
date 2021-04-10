@@ -68,8 +68,9 @@ def port_total():
 
 def should_open (vbar, vhist):
     # Open if:
-    #     change_percent from day_open > 5
-    #     not currently open
+    #     change_percent from day_open > 5.
+    #     not currently open.
+    #     has enough volume to perform trade.
     vchange = vbar['close'] - vhist['initial']
     vchange_percent = round(
             (vchange / vhist['initial']) * 100, 2)
@@ -98,11 +99,7 @@ def should_close (vsymb, vhist):
 if __name__ == "__main__":
     import sys
 
-    # TODO: crypto_broker_paper.py , crypto_broker_live.py
-    # TODO: Examine different market prices for same symbol
-    # TODO: Keep hash table for fast lookup. 
-    #   Go down list of pairs. 
-    # TODO: May need async, multiple threads
+    # TODO: crypto_broker_paper.py , crypto_broker.py
 
     if len(sys.argv) < 2:
         print("[*] Usage: crypto_backtest.py "+
@@ -114,4 +111,6 @@ if __name__ == "__main__":
     vjson_hist = json.loads(open(vhist_file, 'r').read())
     print("[* crypto_backtest] %s bars available." %
             len(vjson_hist['history']))
+
+    # Run backtest with open / close signals.
     backtest(should_open, should_close, vjson_hist)

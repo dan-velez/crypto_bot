@@ -3,10 +3,11 @@ Bot created using CCXT lib, runs automations for creating,
 testing, and live running cryoto trading strategies.
 
 
+## todo ##
+* create / test broker for yobit and coinbase(?) using ccxt
+
+
 ## notes ##
-* 24/7 market
-* No PDT
-    * Can trade consistently with as little amount of money
 * 1,000s of currencies
 * ~125 exchanges on CCXT lib (504 in total)
 * Buy/Sell currencies between exchanges
@@ -19,14 +20,6 @@ testing, and live running cryoto trading strategies.
 * The transaction must be verified through 'mining'
 * New cryptocurrency tokens are created also via 'mining'
 * Free from **economical and political concerns**.
-
-
-## todo ##
-* write algo using just data file.
-    * Complete custom bot using custom data format and API
-
-* `crypto-bot` -> imports all files into **1 bot program**.
-* Use `argparse` library to design program interface. (TAOUP)
 
 
 ## exchanges ##
@@ -52,17 +45,6 @@ testing, and live running cryoto trading strategies.
 * check if sender authorized
 * miners have computers that solve algorithms to store blocks.
 * miners earn block rewards that deposit into bank accounts.
-
-
-## jesse ##
-* trading framework made for python
-* Supported exchanges:
-    Binance
-    Testnet Binance Futures
-    Binance Futures
-    Bitfinex
-    Coinbase
-* generate one jesse bot, add strategies
 
 
 ## positions ##
@@ -95,12 +77,14 @@ testing, and live running cryoto trading strategies.
   your crypto wallet address.
 * Once you have crypto in wallet, use exchange to convert to USD
 * Use exchange and wallet address to transfer funds.
+* Trading on exchange requires verification process.
 
 1. Open wallet
 2. Connect bank account
 3. Sign up for exchange
 4. Place order for currency
 
+* convert fiat to base currency -> convert base to alt
 
 
 ## wallets ##
@@ -125,3 +109,11 @@ testing, and live running cryoto trading strategies.
 * can be used for arbitrage
 * some currencies dont trade crypto/fiat
 * **base currency** is the currency u are trading **from**
+* often the coin price will be paired with BTC, or how much
+  BTC is worth that coin.
+* used to compare one coin price to another. Used to esablish
+  value.
+* To trade XRP to ETH, first find XRP/BTC, then ETH/BTC
+* base currency can be BTC, in which all coins can be bought in
+* some coins **CANNOT** be bought in fiat.
+* Base currency can be BTC, ETH, or LTC
