@@ -19,7 +19,13 @@ def get_exchanges (voutfile=None, vprint=True):
     # stdout and write to file. (binance, kraken, etc.)
     vres = []
 
+    i = 0
     for vex in ccxt.exchanges:
+        i += 1
+        # Set limit here.
+        # if i > 4: break
+
+        print("[* exchanges] %s" % vex)
         try:
             # Get exchange data.
             exchange = getattr(ccxt, vex)()
@@ -53,10 +59,11 @@ def get_exchanges (voutfile=None, vprint=True):
 
     # Write sorted to output file.
     if voutfile:
-        vres = sorted(vres, 
+        vres_sorted = sorted(vres, 
                key=lambda x: x['coins_under_50_cents'])
+        vres_sorted.reverse()
         open(voutfile, 'w+').write(
-            json.dumps(voutfile, indent=4))
+            json.dumps(vres_sorted, indent=4))
         print("[* exchanges] Wrote out %s." % voutfile)
 
     return vres
@@ -75,7 +82,8 @@ def coins_in_range (vex, vmin, vmax):
     for vsymb_text in vex.symbols:
         try:
             vbars = vex.fetch_ohlcv(vsymb_text)
-            print(len(vbars))
+            # DEBUG #
+            print("%s : %s" % (vsymb_text, len(vbars)))
             vclose = vbars[-1][-2]
             if vclose < vmax and vclose > vmin:
                 vres.append({

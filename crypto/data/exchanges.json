@@ -1,0 +1,22 @@
+[
+    {
+        "name": "acx",
+        "size": 27,
+        "coins_under_50_cents": 14
+    },
+    {
+        "name": "aax",
+        "size": 115,
+        "coins_under_50_cents": 30
+    },
+    {
+        "name": "bequant",
+        "size": 184,
+        "coins_under_50_cents": 77
+    },
+    {
+        "name": "aofex",
+        "size": 351,
+        "coins_under_50_cents": 92
+    }
+]

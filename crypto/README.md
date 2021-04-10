@@ -88,7 +88,40 @@ testing, and live running cryoto trading strategies.
 #     'enableRateLimit': True,
 # })
 ```
+
+
+## getting crypto ##
+* Need to purchase crypto on an exchange, then send the coin to 
+  your crypto wallet address.
+* Once you have crypto in wallet, use exchange to convert to USD
+* Use exchange and wallet address to transfer funds.
+
 1. Open wallet
 2. Connect bank account
 3. Sign up for exchange
 4. Place order for currency
+
+
+
+## wallets ##
+* DAVE - 25805 mews terrace chantilly va, 20152
+* metamask.io
+* coinbase
+
+
+## exchanges ##
+* LOW price HIGH volitility
+* crypto / fiat (USD)
+* **bitforex**
+* **crex24**
+* **bittrex**
+* **coinbase**
+* **etoro**
+
+
+## trading pairs ##
+* assets that can be traded for each other on an exchange.
+* some currencies can only be bought with other currencies.
+* can be used for arbitrage
+* some currencies dont trade crypto/fiat
+* **base currency** is the currency u are trading **from**

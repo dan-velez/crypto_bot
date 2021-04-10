@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # crypto_bot.py - CLI for crypto trader scripts.
+# TODO: CALL TURKISH
 
 import sys
 import argparse
@@ -35,6 +36,9 @@ def parser_subcommands ():
 
     # By default, exchanges will show all exchanges with 
     # metadata (name, size, num coins under $0.50)
+    # TODO: Add option ONLY get exchange sizes
+    # TODO: Add option OMIT exchanges
+    # TODO: Add option GET ONLY exchanges
     vparser_exchanges = subparsers.add_parser(
         'exchanges',
         help='Download information on available exchanges.')
