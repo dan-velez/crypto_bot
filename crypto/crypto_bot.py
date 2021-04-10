@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # crypto_bot.py - CLI for crypto trader scripts.
-# TODO: CALL TURKISH
+# Swiss army knife for crypto trading things.
+# Probe exchanges and coin data from CLI.
 
 import sys
 import argparse
@@ -13,10 +14,13 @@ crypto_bot.py <command> [<args>]
 COMMAND
     exchanges --outfile STRING
     exchanges size [ALL | STRING]
-    backtest --hist_file STRING --strategy STRING
-    tickers --exchange STRING --max_price FLOAT
+    coins --exchange STRING --max_price FLOAT
+
+    broker --buy <COIN> <VOLUME>
+    broker --sell <COIN> <VOLUME>
     history --exchange STRING --symbol STRING --start STRING 
             --end STRING --dir STRING
+    backtest --hist_file STRING --strategy STRING
 """
 
 
@@ -34,33 +38,50 @@ def parser_subcommands ():
         help='Command',
         dest='command')
 
+    ## Exchanges ###############################################
     # By default, exchanges will show all exchanges with 
     # metadata (name, size, num coins under $0.50)
-    # TODO: Add option ONLY get exchange sizes
-    # TODO: Add option OMIT exchanges
-    # TODO: Add option GET ONLY exchanges
     vparser_exchanges = subparsers.add_parser(
         'exchanges',
         help='Download information on available exchanges.')
 
     vparser_exchanges.add_argument(
+        '-l',
+        '--list',
+        type=str,
+        required=False,
+        help='Quoted, comma seperated list of names of '+
+             'exchanges to fetch.')
+
+    vparser_exchanges.add_argument(
+        '-s',
+        '--size',
+        type=str,
+        required=False,
+        help='Get size of an exchange.')
+
+    vparser_exchanges.add_argument(
         '-o',
         '--outfile',
+        type=str,
         required=False,
         help='Optionally output data as JSON to a file.')
 
-    # Use tickers to further probe exchange prices.
+    ## Coins ###################################################
+    # Use coins to further probe exchange prices.
     # Can input certain filters.
-    vparser_tickers = subparsers.add_parser(
-        'tickers',
-        help='Download OHLCV data on tickers of an exchange.')
+    vparser_coins = subparsers.add_parser(
+        'coins',
+        help='Download OHLCV data on coins of an exchange.')
 
-    vparser_tickers.add_argument(
+    vparser_coins.add_argument(
         '-x',
         '--exchange',
         required=True,
-        help='The exchange of which to download tickers.')
+        type=str,
+        help='The exchange of which to download coin prices.')
 
+    ## Backtest ################################################
     # Select a file wit OPEN/CLOSE functions
     vparser_backtest = subparsers.add_parser(
         'backtest', 
@@ -68,26 +89,46 @@ def parser_subcommands ():
 
     vparser_backtest.add_argument(
         'hist_file', 
-        help='The JSON data of a ticker, previously generated.',
+        help='The JSON data of a coin, previously generated.',
         type=str)
 
-    # Parse args.
-    # if len(sys.argv) < 3:
-    #   parser.print_help(sys.stderr)
-    #   sys.exit(1)
-
+    ## Parse args ##############################################
     vargs = parser.parse_args()
 
     try:
         # Run command.
-        if vargs.command == "exchanges":
-            print("[* bot] Fetching exchanges with metadata...")
-            print()
-            crypto_exchanges.get_exchanges(
-                voutfile=vargs.outfile, vprint=True)
+        if vargs.command ==   "exchanges": run_command_exchanges(vargs)
+        elif vargs.command == "coins": pass
+        elif vargs.command == "history": pass
+        elif vargs.command == "backtest": pass
+        elif vargs.command == "broker": pass
+        elif vargs.command == "run": pass
+
     except KeyboardInterrupt:
         print("[* bot] Exiting. Goodbye!")
         sys.exit(1)
+
+
+def run_command_exchanges (vargs):
+    # Run the exchanges command with arguments.
+    print("[* bot] Get exchange data...")
+    print()
+
+    # Parse input list
+    if not vargs.list is None:
+        vargs.list = vargs.list.split(",")
+        vargs.list = list(map(lambda x: x.strip(), vargs.list))
+
+    if not vargs.size is None:
+        # Just get size of an exchange.
+        crypto_exchanges.exchange_size(vargs.size)
+
+    else:
+        # Retrieve all exchange data.
+        # May take hours to complete.
+        crypto_exchanges.get_exchanges(
+            vlist=vargs.list,
+            voutfile=vargs.outfile, vprint=True)
 
 
 def parser_tutorial ():

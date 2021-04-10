@@ -3,8 +3,7 @@
 # exchanges.
 #
 # Use this script to select exchanges to use for historical
-# data fetching as well as wallet selection. Find exchange
-# with 'penny' currencies and high volitility.
+# data fetching . Find exchange with  high volitility.
 
 from datetime import datetime
 import json
@@ -14,16 +13,30 @@ import pandas as pd
 from termcolor import colored
 
 
-def get_exchanges (voutfile=None, vprint=True):
+def exchange_size (vex):
+    # Prints the size of an exchange.
+    exchange = getattr(ccxt, vex)()
+    exchange.load_markets()
+    vlen = len(exchange.symbols)
+    print("[* exchanges] %s has %s coins available." 
+        % (vex, vlen))
+    return vlen
+
+
+def get_exchanges (voutfile=None, vprint=True, vlist=None):
     # Retrieve metadata from exchanges. Optionally print to 
     # stdout and write to file. (binance, kraken, etc.)
     vres = []
 
     i = 0
     for vex in ccxt.exchanges:
-        i += 1
+        # Check exchange is in request list.
+        if not vlist is None:
+            if not vex in vlist: continue
+
         # Set limit here.
         # if i > 4: break
+        i += 1
 
         print("[* exchanges] %s" % vex)
         try:
@@ -54,6 +67,7 @@ def get_exchanges (voutfile=None, vprint=True):
             print(e)
             print("")
 
+    # Write out exchange information.
     print("[* exchanges] Total exchanges: %s" 
           % len(ccxt.exchanges))
 
@@ -97,7 +111,8 @@ def coins_in_range (vex, vmin, vmax):
     return vres
 
 
-def get_tickers (vexchange, vmin_price, vmax_price, vmin_change):
+# TODO: Move to crypto_coins.py
+def get_coins (vexchange, vmin_price, vmax_price, vmin_change):
     # Get tickers which fall in a certain price range.
     # Retrieve all symbols as open price.
     # Save to designated JSON path.
@@ -147,10 +162,3 @@ def get_tickers (vexchange, vmin_price, vmax_price, vmin_change):
             % len(vres))
     vfname = "./data/tickers_%s.json" % vexchange
     open(vfname, 'w+').write(json.dumps(vres, indent=4))
-
-
-if __name__ == "__main__":
-    import sys
-    if len(sys.argv) < 2:
-        print("[*] Usage: crypto_exchanges <EXCHANGE NAME>")
-        sys.exit()

@@ -8,16 +8,14 @@ import ccxt
 # import crypto_exchanges
 # crypto_exchanges.get_tickers('coinbase', 0, 0, 0)
 
-vkeys = json.loads(open("/home/danie/.crypto.json", 'r').read())
+vkeys = json.loads(open(".crypto.json", 'r').read())
 
-def x ():
-    vex = getattr(ccxt, 'coinbase')({
-        'apiKey': '',
-        'secret': '',
-        'timeout': 30000,
-        'enableRateLimit': True
-    })
-
+vex = getattr(ccxt, 'coinbase')({
+    'apiKey': vkeys['cb-apikey'],
+    'secret': vkeys['cb-secret'],
+    'timeout': 30000,
+    'enableRateLimit': True
+})
 
 # Get coin from coinbase, and trade in alt coin.
 # Use coinbase to trade FIAT to BTC.
