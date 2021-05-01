@@ -27,7 +27,7 @@ COMMAND
 
 
 def crypto_bot_cli ():
-    # Arg parser with support for multiple sub commands.
+    # crypt-bot CLI parser for all sub commands.
 
     parser = argparse.ArgumentParser(
         prog="crypto-bot",
@@ -45,7 +45,7 @@ def crypto_bot_cli ():
     # metadata (name, size, num coins under $0.50)
     vparser_exchanges = subparsers.add_parser(
         'exchanges',
-        help='Download information on available exchanges.')
+        help='View / download information on available exchanges.')
 
     vparser_exchanges.add_argument(
         '-l',
@@ -74,7 +74,7 @@ def crypto_bot_cli ():
     # Can input certain filters.
     vparser_coins = subparsers.add_parser(
         'coins',
-        help='Download OHLCV data on coins of an exchange.')
+        help='View / download OHLCV data on coins of an exchange.')
 
     vparser_coins.add_argument(
         '-x',
@@ -105,6 +105,7 @@ def crypto_bot_cli ():
         elif vargs.command == "backtest": pass
         elif vargs.command == "broker": pass
         elif vargs.command == "run": pass
+        else: parser.print_help(sys.stderr)
 
     except KeyboardInterrupt:
         print("[* bot] Exiting. Goodbye!")
