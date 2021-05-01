@@ -2,7 +2,7 @@
 # crypto_get_tickers.py - retrieve tickers from different 
 # exchanges.
 #
-# Use this script to select exchanges to use for historical
+# Use these functions to select exchanges to use for historical
 # data fetching . Find exchange with  high volitility.
 
 from datetime import datetime
