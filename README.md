@@ -1,10 +1,9 @@
 # crypto-bot #
-Bot created using CCXT lib, runs automations for creating, 
-testing, and live running cryoto trading strategies.
-
-
-## todo ##
-* create / test broker for yobit and coinbase(?) using ccxt
+**crypto-bot** is a swiss army knife for crypto trading. It is
+used to probe coin and exchange data, download historical 
+market data and backtest strategies on this data. It will
+also be able to live test these strategies using a real crypto
+wallet.
 
 
 ## notes ##
@@ -88,7 +87,6 @@ testing, and live running cryoto trading strategies.
 
 
 ## wallets ##
-* DAVE - 25805 mews terrace chantilly va, 20152
 * metamask.io
 * coinbase
 
