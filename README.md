@@ -53,7 +53,7 @@ crypto trading tasks: (not all have been implemented)
 > Run a strategy on a live feed. Select your strategy source
   file. The wallet set in the settings file will be used.
 
-
+### help message ###
 ```
 usage: crypto-bot [-h] {exchanges,coins,backtest} ...
 
