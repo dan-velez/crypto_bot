@@ -25,7 +25,7 @@ be created manually. It should contain the following keys:
 
 ## usage ##
 **crypto-bot** contains several commands for automating 
-crypto trading tasks:
+crypto trading tasks: (not all have been implemented)
 
 ### exchanges ###
 > View and download exchange data such as size and which 
@@ -39,7 +39,7 @@ crypto trading tasks:
 > View and download data on coin / exchange pair such as
   OHLCV for a coin. 
 
-## broker ##
+### broker ###
 > Functions that interact with your wallet and portfolio.
   Initiate buy / sell for a coin or view portfolio data.
 
