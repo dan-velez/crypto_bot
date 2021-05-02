@@ -16,7 +16,7 @@ The file `.crypto.json` cotains some configuration for the bot.
 This file is sensitive and specific to each trader. This should
 be created manually. It should contain the following keys:
 
-* `wallet` - Set to `paper` or `coinbase`/
+* `wallet` - Set to `paper` or `coinbase`.
 * Coinbase wallet settings:
   * `cb-secret` - Coinbase API secret.
   * `cb-apikey` - Coinbase API Key.
@@ -73,7 +73,7 @@ crypto-bot <command> -h displays help on a particular command.
 ```
 
 ## examples ##
-```
+```bash
 # Get a list of all exchanges and all coins available in each.
 # Should print the latest bar for each coin.
 crypto-bot exchanges
