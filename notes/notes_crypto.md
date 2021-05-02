@@ -112,3 +112,21 @@ various concepts of crypto trading and finance.
 * base currency can be BTC, in which all coins can be bought in
 * some coins **CANNOT** be bought in fiat.
 * Base currency can be BTC, ETH, or LTC
+
+
+## ccxt bars format ##
+After running `load_markets` on exchange, for particular symbol
+run the `fetch_ohlcv` method. Bars are formatted:
+```
+[
+    [
+        1504541580000, // UTC timestamp in milliseconds, integer
+        4235.4, // (O)pen price, float
+        4240.6, // (H)ighest price, float
+        4230.0, // (L)owest price, float
+        4230.7, // (C)losing price, float
+        37.72941911 // (V)olume (in terms of the base currency), float
+    ],
+...
+]
+```

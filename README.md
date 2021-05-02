@@ -87,3 +87,8 @@ crypto-bot exchanges --list "coinbase, kraken" --outfile coinbase_kraken.json
 # Get exchanges that only contain less than 50 assets available.
 crypt-bot exchanges --size-limit 50 --outfile small_exchanges.json
 ```
+
+## TODO ##
+* get change % in 24 hour period for a coin to find volitility.
+* get list of coins with their volatility
+* 

@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-# crypto_get_hist_data.py - Use CCXT lib to retrieve data on 
-# tickers, i.e. historical data used to backtest strategies.
-#
-# TODO: Refactor into functions. 
+# TODO: move these functions into CryptoCoins, functions that operate on assets. 
 
 import json
 import datetime
@@ -12,6 +9,12 @@ import math
 import pandas as pd
 import ccxt
 
+
+class CryptoHistory:
+    """Use CCXT lib to retrieve data on 
+    tickers, i.e. historical data used to backtest strategies."""
+
+    pass
 
 # DATA FEED FROM EXCHANGE
 exchange = str('binance')
