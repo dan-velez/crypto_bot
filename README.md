@@ -10,6 +10,33 @@ wallet.
 * Install requirements file with 
   `pip install -r requirements.txt`
 
+## usage ##
+**crypto-bot** contains several commands for automating 
+crypto trading tasks:
+
+### exchanges ###
+### coins ###
+### backtest ###
+### run ###
+
+```
+usage: crypto-bot [-h] {exchanges,coins,backtest} ...
+
+Retrieve crypto data and run back tests, live tests, and live trading.     
+
+positional arguments:
+  {exchanges,coins,backtest}
+                        Command
+    exchanges           View / download information on available exchanges.
+    coins               View / download OHLCV data on coins of an exchange.
+    backtest            Backtest a strategy on historical data.
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+crypto-bot <command> -h displays help on a particular command.
+```
+
 
 ## notes ##
 The rest of these sections of documentation are notes on
