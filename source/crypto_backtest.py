@@ -1,9 +1,12 @@
 #!/usr/bin/python
 # crypto_backtest.py - Backtest on historical data.
+# TODO: move strategy to own file, factor out CLI part.
 
 import json
 
 from termcolor import colored
+
+from crypto_broker import is_open
 
 vtrade_quantity = 10
 

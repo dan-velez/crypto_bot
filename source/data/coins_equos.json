@@ -1,0 +1,40 @@
+[
+    {
+        "name": "equos",
+        "size": 8,
+        "coins": [
+            {
+                "symbol": "BCH/USDC",
+                "close": 1010.0
+            },
+            {
+                "symbol": "BTC/USDC",
+                "close": 57727.79
+            },
+            {
+                "symbol": "BTC/USDC[F]",
+                "close": 57801.45
+            },
+            {
+                "symbol": "EQO/USDC",
+                "close": 0.53
+            },
+            {
+                "symbol": "ETH/BTC",
+                "close": 0.050382
+            },
+            {
+                "symbol": "ETH/USDC",
+                "close": 2956.06
+            },
+            {
+                "symbol": "ETH/USDC[F]",
+                "close": 2940.72
+            },
+            {
+                "symbol": "USDT/USDC",
+                "close": 1.0003
+            }
+        ]
+    }
+]

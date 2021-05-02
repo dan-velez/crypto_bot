@@ -31,23 +31,23 @@ crypto trading tasks: (not all have been implemented)
 > View and download exchange data such as size and which 
   coins it contains.
 
-### history ###
-> View and download historical data for a coin / exchange
-  pair over a given time frame.
-
 ### coins ###
 > View and download data on coin / exchange pair such as
   OHLCV for a coin. 
 
-### broker ###
-> Functions that interact with your wallet and portfolio.
-  Initiate buy / sell for a coin or view portfolio data.
+### history ###
+> View and download historical data for a coin / exchange
+  pair over a given time frame.
 
 ### backtest ###
 > Run a strategy on a historical data file. The history data
   file should be generated using the `history` subcommand. The
   strategy file is a python source file which contains your
   entry and exit function `should_buy()` and `should_sell()`.
+
+### broker ###
+> Functions that interact with your wallet and portfolio.
+  Initiate buy / sell for a coin or view portfolio data.
 
 ### run ###
 > Run a strategy on a live feed. Select your strategy source
@@ -70,4 +70,20 @@ optional arguments:
   -h, --help            show this help message and exit
 
 crypto-bot <command> -h displays help on a particular command.
+```
+
+## examples ##
+```
+# Get a list of all exchanges and all coins available in each.
+# Should print the latest bar for each coin.
+crypto-bot exchanges
+crypto-bot exchanges --outfile exchanges.json
+
+
+# Get exchange size and coins available for certain exchanges. 
+crypto-bot exchanges --list "coinbase, kraken" --outfile coinbase_kraken.json
+
+
+# Get exchanges that only contain less than 50 assets available.
+crypt-bot exchanges --size-limit 50 --outfile small_exchanges.json
 ```

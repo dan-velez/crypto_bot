@@ -54,6 +54,14 @@ def crypto_bot_cli ():
              'exchanges to fetch.')
 
     vparser_exchanges.add_argument(
+        '-sl',
+        '--size-limit',
+        type=int,
+        required=False,
+        help='Only fetch exchanges which contain a max of '+
+             'this number of coins.')
+
+    vparser_exchanges.add_argument(
         '-s',
         '--size',
         type=str,
@@ -106,7 +114,7 @@ def crypto_bot_cli ():
         else: parser.print_help(sys.stderr)
 
     except KeyboardInterrupt:
-        print("[* bot] Exiting. Goodbye!")
+        print("\n[* bot] Exiting. Goodbye!")
         sys.exit(1)
 
 
@@ -131,7 +139,9 @@ def run_command_exchanges (vargs):
         # May take hours to complete.
         crypto_exchanges.get_exchanges(
             vlist=vargs.list,
-            voutfile=vargs.outfile, vprint=True)
+            voutfile=vargs.outfile,
+            vsize_limit=vargs.size_limit,
+            vprint=True)
 
 
 if __name__ == "__main__":
