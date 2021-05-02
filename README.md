@@ -10,14 +10,49 @@ wallet.
 * Install requirements file with 
   `pip install -r requirements.txt`
 
+
+## settings ##
+The file `.crypto.json` cotains some configuration for the bot.
+This file is sensitive and specific to each trader. This should
+be created manually. It should contain the following keys:
+
+* `wallet` - Set to `paper` or `coinbase`/
+* Coinbase wallet settings:
+  * `cb-secret` - Coinbase API secret.
+  * `cb-apikey` - Coinbase API Key.
+  * `cb-passphrase` - Coinbase API passphrase.`
+
+
 ## usage ##
 **crypto-bot** contains several commands for automating 
 crypto trading tasks:
 
 ### exchanges ###
+> View and download exchange data such as size and which 
+  coins it contains.
+
+### history ###
+> View and download historical data for a coin / exchange
+  pair over a given time frame.
+
 ### coins ###
+> View and download data on coin / exchange pair such as
+  OHLCV for a coin. 
+
+## broker ##
+> Functions that interact with your wallet and portfolio.
+  Initiate buy / sell for a coin or view portfolio data.
+
 ### backtest ###
+> Run a strategy on a historical data file. The history data
+  file should be generated using the `history` subcommand. The
+  strategy file is a python source file which contains your
+  entry and exit function `should_buy()` and `should_sell()`.
+
 ### run ###
+> Run a strategy on a live feed. Select your strategy source
+  file. The wallet set in the settings file will be used.
+
 
 ```
 usage: crypto-bot [-h] {exchanges,coins,backtest} ...

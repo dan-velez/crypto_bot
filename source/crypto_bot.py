@@ -1,9 +1,7 @@
 #!/usr/bin/python
-# crypto_bot.py - CLI for crypto trader scripts.
+# crypto_bot.py - CLI for crypto trader tasks.
 # Swiss army knife for crypto trading things.
-# Probe exchanges and coin data from CLI.
-# TODO: Implement coins command. Get ohlcv data for coins.
-# TODO: Calculate change percent for given time frame.
+# View and download exchanges and coin data.
 
 import sys
 import argparse
