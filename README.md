@@ -5,6 +5,7 @@ market data and backtest strategies on this data. It will
 also be able to live test these strategies using a real crypto
 wallet.
 
+
 ## installation ##
 * Install `Python 3.6` (not tested on any other Python versions).
 * Install requirements file with 
@@ -18,9 +19,9 @@ be created manually. It should contain the following keys:
 
 * `wallet` - Set to `paper` or `coinbase`.
 * Coinbase wallet settings:
-  * `cb-secret` - Coinbase API secret.
-  * `cb-apikey` - Coinbase API Key.
-  * `cb-passphrase` - Coinbase API passphrase.`
+    * `cb-secret` - Coinbase API secret.
+    * `cb-apikey` - Coinbase API Key.
+    * `cb-passphrase` - Coinbase API passphrase.`
 
 
 ## usage ##
@@ -89,8 +90,13 @@ crypto-bot exchanges --list "coinbase, kraken" --outfile coinbase_kraken.json
 # Get exchanges that only contain less than 50 assets available.
 crypt-bot exchanges --size-limit 50 --outfile small_exchanges.json
 
+
 # Run live ticker feed with a list of assets generated from exchanges command.
 crypto-bot run --assets .\data\coins_coinbasepro.json
+
+
+# Download historical data for backtesting. 
+crypto-bot history --exchange "coinbasepro" --symbol "BTC/USD" --start 20210101 --end 20210501 --timeframe '1m'
 ```
 
 ## paper broker ##
@@ -124,6 +130,17 @@ format:
 ```
 
 
+## bot woorkflow ##
+* use the bot to  select assets with the `exchange` command
+    * print out to assets list
+
+* paper portfolio to test out strtegies and not lose any real money
+
+* create strategies using statistical indicators
+
+* use `run` command to test the strategy on a live market data feed
+
+
 ## TODO ##
 * for command `run`, add strategy and broker class parameters.
 
@@ -140,5 +157,5 @@ format:
   just return the size attribute of the exchanges, rather than probe the coins.
 
 * For live trading with real wallet, need to determine:
-  * how long does a BUY order take to complete? Instant?
-  * how long does a SELL order take to complete? Instant?
+    * how long does a BUY order take to complete? Instant?
+    * how long does a SELL order take to complete? Instant?

@@ -28,7 +28,7 @@ class CryptoLiveFeed:
                 for vcoin in vex['coins']:
                     
                     # Run the strategy on this coin (should BUY or SELL)
-                    self.run_strategy(vex, vcoin. vexchanges)
+                    self.run_strategy(vex, vcoin, vexchanges)
 
             # Print message after each succesful iteration on target assets.
             print("[* LiveFeed] Finished iteration. Waiting %s sec..." 
@@ -37,7 +37,8 @@ class CryptoLiveFeed:
 
     def run_strategy (self, vex, vcoin, vexchanges):
         """Run the LiveFeed's strategy on this coin. This function is 
-        consolidated for brevity.
+        consolidated for brevity. This runs once per every asset on every
+        iteration of the ticker feed loop.
         
         Params
         ------
@@ -69,13 +70,11 @@ class CryptoLiveFeed:
         if self.broker.is_open(vcoin['symbol']):
             # SELL?
             if self.strategy.should_close(): 
-                self.broker.sell(vcoin['symbol'], 
-                    self.strategy.vtrade_quantity)
+                self.broker.sell(vcoin['symbol'],self.strategy.vtrade_quantity)
         else:
             # BUY?
             if self.strategy.should_open({}, []):
-                self.broker.buy(vcoin['symbol'], 
-                    self.strategy.vtrade_quantity)
+                self.broker.buy(vcoin['symbol'], self.strategy.vtrade_quantity)
         
         # Limit API request
         print()

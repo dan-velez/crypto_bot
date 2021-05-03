@@ -93,7 +93,7 @@ class CryptoBot:
             '-i',
             '--interval',
             help='How many seconds the bot should sleep in between loops over '+
-                 'the entire assets list.'.
+                 'the entire assets list.',
             required=False,
             default=5,
             type=int)

@@ -105,8 +105,28 @@ def volatility_24_hour (exchange, pair):
 
 
 # Test
-binance = ccxt.binance()
-volatil = volatility_24_hour(binance, 'ETH/BTC')
-print(volatil)
-
+# binance = ccxt.binance()
+# volatil = volatility_24_hour(binance, 'ETH/BTC')
+# print(volatil)
 # datetime.fromtimestamp(candle[0] / 1000.0).strftime('%Y-%m-%d %H:%M:%S.%f')
+
+# Testing coinbase pro API connection.
+keys = json.loads(open("../.crypto.json", 'r').read())
+ex = ccxt.coinbasepro({
+    'apiKey': keys['cb-sandbox-apikey'],
+    'secret': keys['cb-sandbox-secret'],
+    'password': keys['cb-sandbox-passphrase'],
+    'timeout': 30000,
+    'enableRateLimit': True
+})
+
+ex.set_sandbox_mode(True)
+ex.load_markets()
+
+bal = ex.fetchBalance()
+# print(json.dumps(bal, indent=4))
+
+ex.deposit(100)
+
+# print(json.dumps(ex.markets, indent=4))
+# print(json.dumps(ex.currencies, indent=4))

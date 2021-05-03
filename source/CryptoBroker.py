@@ -22,12 +22,12 @@ class CryptoBroker:
     def __init__ (self):
         """Initiate portfolio reference. For PAPER broker, this means load the
         JSON file which is on the disk."""
-        
+        self.portfolio = json.loads(open("paper_portfolio.json", 'r').read())
         return
 
     def is_open (self, vsym):
         """Return true if there is an open position on this symbol.
-        I.e., if it exists in portfolio."""
+        I.e., if it exists in portfolio's assets list."""
 
         for vasset in self.portfolio['assets']:
             if vasset['symbol'] == vsym: return True
