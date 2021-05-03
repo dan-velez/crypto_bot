@@ -7,23 +7,28 @@ import time
 import ccxt
 from termcolor import colored
 
+from CryptoCoins import CryptoCoins
+
 
 class CryptoExchanges:
-    """Retrieve data on exchanges such as size and available assets.""" 
+    """Retrieve data on exchanges such as size and available assets.
+    Used to download lists of coin pairs.""" 
+
+    # Use the coins object to get OHLCV data of assets.
+    vcoins = CryptoCoins()
 
     def exchange_size (self, vex):
-        """Prints the size of an exchange."""
+        """Gets the total number of assets in an exchange."""
 
         exchange = getattr(ccxt, vex)()
         exchange.load_markets()
         vlen = len(exchange.symbols)
-        print("[* Exchanges] %s has %s coins available." 
-            % (vex, vlen))
+        print("[* Exchanges] %s has %s coins available." % (vex, vlen))
         return vlen
 
     def get_exchanges (self, voutfile=None, vprint=True, vlist=None, 
                     vsize_limit=None):
-        """Retrieve list of exchanges and all assets in exchange. 
+        """Retrieve list of exchanges and a sublist of assets in exchange. 
         Optionally print to stdout and write to file."""
         
         vres = []
@@ -43,12 +48,11 @@ class CryptoExchanges:
                     if len(exchange.symbols) > vsize_limit: continue
                 
                 # Continue to get exchange asset data.
-                print("\n[* Exchanges] %s" % vex)
+                print(colored("\n[* Exchanges] %s" % vex, 'blue'))
                 vcoins = self.get_coins(exchange, vname=vex)
 
                 # Print output.
-                print("[* Exchanges] Size: %s\n" 
-                    % len(exchange.symbols))
+                print("[* Exchanges] Size: %s\n" % len(exchange.symbols))
 
                 # Add to output struct.
                 vres.append({
@@ -58,22 +62,19 @@ class CryptoExchanges:
                 })
 
             except Exception as e:
-                print("[* Exchanges] Could not load exchange %s."
-                    % vex)
+                print(colored("[* Exchanges] Could not load exchange %s."
+                    % vex, 'red'))
                 # print(e)
                 print("")
 
         # Write out exchange information.
-        print("[* Exchanges] Total exchanges: %s" 
-            % len(ccxt.exchanges))
+        print("[* Exchanges] Total exchanges: %s" % len(ccxt.exchanges))
 
         # Write sorted to output file.
         if voutfile:
-            vres_sorted = sorted(vres, 
-                key=lambda x: x['size'])
+            vres_sorted = sorted(vres, key=lambda x: x['size'])
             vres_sorted.reverse()
-            open(voutfile, 'w+').write(
-                json.dumps(vres_sorted, indent=4))
+            open(voutfile, 'w+').write(json.dumps(vres_sorted, indent=4))
             print("[* Exchanges] Wrote out %s." % voutfile)
 
         return vres
@@ -91,12 +92,17 @@ class CryptoExchanges:
 
         for vsymb_text in vex.symbols:
             try:
+                # Get bars data. 
                 vbars = vex.fetch_ohlcv(vsymb_text)
-                # Need to calc change percent 
-                # from bar[0] and bar[-1]
-                # DEBUG # len(vbars)
                 vclose = vbars[-1][-2]
-                print("%s : $%s" % (vsymb_text, vclose))
+                vvolatil = self.vcoins.volatility_24_hour(vex, vsymb_text)
+                
+                # Print asset info to terminal.
+                if vvolatil < 0: vcolor = 'red'
+                else: vcolor = 'green'
+
+                print(colored("[* Exchanges] %s : $%s : %s%%" % 
+                    (vsymb_text, vclose, colored(vvolatil, vcolor)), 'cyan'))
 
                 # Check for asset price range setting.
                 vappend = True
@@ -107,15 +113,17 @@ class CryptoExchanges:
                 if vappend:
                     vres.append({
                         'symbol': vsymb_text,
-                        'close': vclose
+                        'close': vclose,
+                        'volatility': vvolatil
                     })
                 
                 # Limit requests for coinbasepro public API.
                 if vname == 'coinbasepro': time.sleep(0.25)
                 # time.sleep(binance.rateLimit / 1000)
             except Exception as e:
-                print("[* Exchanges] Cant get coin %s" 
-                    % (vsymb_text)) 
+                print(colored("[* Exchanges] Cant get coin %s" 
+                    % (vsymb_text), 'red')) 
+                # print(e)
                 continue
 
         return vres

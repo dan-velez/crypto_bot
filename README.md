@@ -6,7 +6,7 @@ also be able to live test these strategies using a real crypto
 wallet.
 
 ## installation ##
-* Install `Python 3.6`
+* Install `Python 3.6` (not tested on any other Python versions).
 * Install requirements file with 
   `pip install -r requirements.txt`
 
@@ -29,15 +29,13 @@ crypto trading tasks: (not all have been implemented)
 
 ### exchanges ###
 > View and download exchange data such as size and which 
-  coins it contains.
+  coins it contains. Use this command to generate a list 
+  of coins / exchange pairs to run strategy on. 
 
 ### coins ###
 > View and download data on coin / exchange pair such as
-  OHLCV for a coin. 
-
-### history ###
-> View and download historical data for a coin / exchange
-  pair over a given time frame.
+  OHLCV for a coin. Use this command to download historical 
+  data to run backtests on.
 
 ### backtest ###
 > Run a strategy on a historical data file. The history data
@@ -72,6 +70,7 @@ optional arguments:
 crypto-bot <command> -h displays help on a particular command.
 ```
 
+
 ## examples ##
 ```bash
 # Get a list of all exchanges and all coins available in each.
@@ -88,7 +87,8 @@ crypto-bot exchanges --list "coinbase, kraken" --outfile coinbase_kraken.json
 crypt-bot exchanges --size-limit 50 --outfile small_exchanges.json
 ```
 
+
 ## TODO ##
-* get change % in 24 hour period for a coin to find volitility.
-* get list of coins with their volatility
-* 
+* add volatility to exchange output
+* implement live feed testing
+* implement backtester

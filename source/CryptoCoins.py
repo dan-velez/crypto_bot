@@ -10,7 +10,8 @@ import numpy as np
 
 
 class CryptoCoins:
-    """Implement functions used in the `coins` subcommand.""""
+    """Implement functions used in the `coins` subcommand. Use to download
+    historical OHLCV data on an asset pair."""
 
     def min_ohlcv (self, dt, exchange, pair, limit):
         """UTC native object"""
@@ -42,7 +43,7 @@ class CryptoCoins:
             start_dt = datetime.strptime(i, "%Y%m%d")
             since = calendar.timegm(start_dt.utctimetuple())*1000
             if period == '1m':
-                ohlcv.extend(min_ohlcv(start_dt, exchange, pair, limit))
+                ohlcv.extend(self.min_ohlcv(start_dt, exchange, pair, limit))
             else:
                 ohlcv.extend(exchange.fetch_ohlcv(
                     symbol=pair, timeframe=period, since=since, limit=limit))
@@ -79,7 +80,7 @@ class CryptoCoins:
         if current == previous:
             return 100.0
         try:
-            return (abs(current - previous) / previous) * 100.0
+            return round(((current - previous) / previous) * 100.0, 2)
         except ZeroDivisionError:
             return 0
 
@@ -88,25 +89,27 @@ class CryptoCoins:
         to determine volatility."""
 
         vdt = datetime.today().strftime("%Y%m%d")
-        df = ohlcv([vdt], binance, pair, '1h')
-        # print(df)
-        # print(len(df))
+        df = self.ohlcv([vdt], exchange, pair, '1h')
+        if len(df) < 1: 
+            print("[* Coins] No bars found for %s" % pair)
+            return 0
         vres = df.to_json(orient='records')
         vres = json.loads(vres)
         # vres = json.dumps(vres, indent=4) 
         # print(vres)
         # print(vres[0]['Open'])
         # print(vres[-1]['Close'])
-        return get_change(vres[-1]['Close'], vres[0]['Open'])
+        return self.get_change(vres[-1]['Close'], vres[0]['Open'])
 
 
 if __name__ == "__main__":
-    # Test
-    # datetime.fromtimestamp(candle[0] / 1000.0).strftime('%Y-%m-%d %H:%M:%S.%f')
+    # Test out the class.
+    # datetime.fromtimestamp(candle[0] / 1000.0).strftime(
+    #   '%Y-%m-%d %H:%M:%S.%f')
 
     vcoins = CryptoCoins()
-    binance = ccxt.binance()
-    volatil = coins.volatility_24_hour(binance, 'ETH/BTC')
+    exchange = ccxt.bit2c()
+    volatil = vcoins.volatility_24_hour(exchange, 'BCH/NIS')
     print(volatil)
 
     # df = vcoins.ohlcv([vdt], binance, pair, '1h')
