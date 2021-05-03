@@ -11,7 +11,7 @@ import numpy as np
 
 class CryptoCoins:
     """Implement functions used in the `coins` subcommand. Use to download
-    historical OHLCV data on an asset pair."""
+    historical OHLCV data on an asset pair, i.e. download bar data."""
 
     def min_ohlcv (self, dt, exchange, pair, limit):
         """UTC native object"""
