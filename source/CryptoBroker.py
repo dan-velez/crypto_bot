@@ -12,14 +12,18 @@ class CryptoBroker:
     The wallet used in crypto-bot can be configured in the file `.crypto.json`. 
     Implement BUY and SELL functions here. The default broker is a PAPER broker.
     To use a broker for your own wallet/exchange, inherit this and use its API
-    functions via CCXT. The PAPER broker holds its portfolio in memory and is 
-    only used for testing."""
+    functions via CCXT. The PAPER broker holds its portfolio on the disk in a 
+    JSON file."""
 
-    # PAPER portfolio. Use for live testing strategies.
-    portfolio = {
-        'total_value': 100.00,
-        'assets': []
-    }
+    # PAPER portfolio. Use for live testing strategies. For PAPER broker, this
+    # would be the file `./paper_portfolio.json`.
+    portfolio = None
+
+    def __init__ (self):
+        """Initiate portfolio reference. For PAPER broker, this means load the
+        JSON file which is on the disk."""
+        
+        return
 
     def is_open (self, vsym):
         """Return true if there is an open position on this symbol.

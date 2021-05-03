@@ -93,21 +93,51 @@ crypt-bot exchanges --size-limit 50 --outfile small_exchanges.json
 crypto-bot run --assets .\data\coins_coinbasepro.json
 ```
 
+## paper broker ##
+The paper broker will mimic a wallet/exchange/bank that is used to store your
+assets. It is a JSON file that is saved to the disk and is in the following
+format:
+```json
+{
+    "total": 0,
+    "assets": [
+        {
+            "exchange": "coinbasepro",
+            "pair": "USD/MOCK",
+            "buy_price": 0.005,
+            "buy_date": "20210501:01:00"
+        }
+    ],
+
+    "trades": [
+        {
+            "exchange": "coinbasepro",
+            "pair": "USD/MOCK",
+            "buy_price": 0.004,
+            "buy_date": "20210501:01:00",
+            "sell_price": 0.006,
+            "sell_date": "20210501:02:00",
+            "profit_loss": 50.00
+        }
+    ]
+}
+```
+
 
 ## TODO ##
-* Add `run` command to bot. Params:
-  * asset file
-  * strategy class
+* for command `run`, add strategy and broker class parameters.
 
 * fully implement paper broker and paper portfolio (JSON file on disk).
 
-* for command `exchanges`, add a flag --no-assets, which will force the bot to
-  just return the size attribute of the exchanges, rather than probe the coins.
+* for command `exchanges`, add a datestamp to the output pair.
 
-* for command `exchanges`, fetch only USD pairs
+* for command `exchanges`, add fetch only USD pairs
 
 * for command `exchanges`, size parameter is total number of pairs retrieved,
   not total size of the exchange.
+
+* for command `exchanges`, add a flag --no-assets, which will force the bot to
+  just return the size attribute of the exchanges, rather than probe the coins.
 
 * For live trading with real wallet, need to determine:
   * how long does a BUY order take to complete? Instant?

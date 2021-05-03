@@ -76,18 +76,27 @@ class CryptoBot:
 
         ## Run #################################################################
         # Run LiveFeed with an assets list and strategy class.
-        vparser_backtest = subparsers.add_parser(
+        vparser_run = subparsers.add_parser(
             'run', 
             help='Run live ticker feed on an assets list '
                  +'with a strategy class.')
 
-        vparser_backtest.add_argument(
+        vparser_run.add_argument(
             '-a',
             '--assets', 
             help='A list of assets to run the live ticker feed on. Should be '+ 
                  'a JSON file generated with the exchanges command.',
             required=True,
             type=str)
+        
+        vparser_run.add_argument(
+            '-i',
+            '--interval',
+            help='How many seconds the bot should sleep in between loops over '+
+                 'the entire assets list.'.
+            required=False,
+            default=5,
+            type=int)
 
         ## Coins ###############################################################
         # Use coins to further probe exchange prices.
@@ -147,7 +156,7 @@ class CryptoBot:
         from CryptoBroker import CryptoBroker
         self.feed = CryptoLiveFeed(
             assets=vassets, strategy=CryptoStrategy(), broker=CryptoBroker())
-        self.feed.run(vinterval=3)
+        self.feed.run(vinterval=vargs.interval)
 
     def run_command_exchanges (self, vargs):
         """Run the exchanges command with user input arguments."""

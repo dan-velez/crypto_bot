@@ -1,11 +1,24 @@
 {
     "total": 0,
+
     "assets": [
         {
             "exchange": "coinbasepro",
-            "pair": "USD/BTC",
+            "pair": "USD/MOCK",
             "buy_price": 0.005,
             "buy_date": "20210501:01:00"
+        }
+    ],
+
+    "trade_history": [
+        {
+            "exchange": "coinbasepro",
+            "pair": "USD/MOCK",
+            "buy_price": 0.004,
+            "buy_date": "20210501:01:00",
+            "sell_price": 0.006,
+            "sell_date": "20210501:02:00",
+            "profit_loss": 50.00
         }
     ]
 }
