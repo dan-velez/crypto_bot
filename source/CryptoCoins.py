@@ -30,6 +30,7 @@ class CryptoCoins:
         ohlcv = []
         limit = 1000
         
+        # Limit to an entire days worth of bars per timeframe type.
         if period == '1m':
             limit = 720
         elif period == '1d':
@@ -39,6 +40,7 @@ class CryptoCoins:
         elif period == '5m':
             limit = 288
         
+        # Create OHLCV list using CCXT API functions.
         for i in dt:
             start_dt = datetime.strptime(i, "%Y%m%d")
             since = calendar.timegm(start_dt.utctimetuple())*1000

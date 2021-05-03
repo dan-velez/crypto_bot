@@ -13,9 +13,7 @@ class CryptoBacktest:
     def run (self, broker, strategy, vhist):
         # Loop through bars
         # Test open / exit conditions on each
-        print("[* Backtest] Period Start Price: %s" %
-                vhist['initial'])
-        print()
+        print("[* Backtest] Period Start Price: %s\n" % vhist['initial'])
 
         for vbar in vhist['history']:
             vsymb = vbar['symbol']

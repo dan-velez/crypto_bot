@@ -102,7 +102,8 @@ class CryptoExchanges:
                 else: vcolor = 'green'
 
                 print(colored("[* Exchanges] %s : $%s : %s%%" % 
-                    (vsymb_text, vclose, colored(vvolatil, vcolor)), 'cyan'))
+                    (vsymb_text, format(vclose, 'f'), 
+                    colored(vvolatil, vcolor)), 'cyan'))
 
                 # Check for asset price range setting.
                 vappend = True

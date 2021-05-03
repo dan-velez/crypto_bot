@@ -6,23 +6,23 @@ class CryptoStrategy:
     Inherit these functions to create custom strategies. This is just a default
     strategy for demo purposes."""
 
-    def should_open (self,vbar, vhist):
+    def should_open (self, vbar, vhist):
         """If the position is closed, determine if we should BUY."""
         # Open if:
         #     change_percent from day_open > 5.
         #     not currently open.
         #     has enough volume to perform trade.
+        return False # DEBUG
+
         vchange = vbar['close'] - vhist['initial']
-        vchange_percent = round(
-                (vchange / vhist['initial']) * 100, 2)
+        vchange_percent = round((vchange / vhist['initial']) * 100, 2)
 
         # Print debug info.
         if vchange_percent > 0: vcolor = 'green'
         else: vcolor = 'red'
-        print(colored(
-            "[* crypto_backtest] change since open: %s%%" % 
+        print(colored("[* Strategy] change since open: %s%%\n" % 
             vchange_percent, vcolor))
-        print('')
+
         return False
 
     def should_close (self, vsymb, vhist):

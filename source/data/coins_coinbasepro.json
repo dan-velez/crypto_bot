@@ -1,56 +1,18 @@
 [
     {
         "name": "coinbasepro",
-        "size": 183,
+        "size": 20,
         "coins": [
-            {
-                "symbol": "1INCH/BTC",
-                "close": 9.41e-05
-            },
-            {
-                "symbol": "1INCH/EUR",
-                "close": 4.502
-            },
-            {
-                "symbol": "1INCH/GBP",
-                "close": 3.94
-            },
             {
                 "symbol": "1INCH/USD",
                 "close": 5.43
             },
-            {
-                "symbol": "AAVE/BTC",
-                "close": 0.00868437
-            },
-            {
-                "symbol": "AAVE/EUR",
-                "close": 416.769
-            },
-            {
-                "symbol": "AAVE/GBP",
-                "close": 364.055
-            },
+
             {
                 "symbol": "AAVE/USD",
                 "close": 502.699
             },
-            {
-                "symbol": "ADA/BTC",
-                "close": 2.337e-05
-            },
-            {
-                "symbol": "ADA/ETH",
-                "close": 0.000456
-            },
-            {
-                "symbol": "ADA/EUR",
-                "close": 1.1183
-            },
-            {
-                "symbol": "ADA/GBP",
-                "close": 0.9779
-            },
+
             {
                 "symbol": "ADA/USD",
                 "close": 1.3487
@@ -59,82 +21,32 @@
                 "symbol": "ADA/USDC",
                 "close": 1.348
             },
-            {
-                "symbol": "ALGO/BTC",
-                "close": 2.412e-05
-            },
-            {
-                "symbol": "ALGO/EUR",
-                "close": 1.1537
-            },
-            {
-                "symbol": "ALGO/GBP",
-                "close": 1.0084
-            },
+
             {
                 "symbol": "ALGO/USD",
                 "close": 1.3913
             },
-            {
-                "symbol": "ANKR/BTC",
-                "close": 3.06e-06
-            },
-            {
-                "symbol": "ANKR/EUR",
-                "close": 0.14667
-            },
-            {
-                "symbol": "ANKR/GBP",
-                "close": 0.12816
-            },
+
             {
                 "symbol": "ANKR/USD",
                 "close": 0.1765
             },
-            {
-                "symbol": "ATOM/BTC",
-                "close": 0.00041
-            },
+
             {
                 "symbol": "ATOM/USD",
                 "close": 23.655
             },
-            {
-                "symbol": "BAL/BTC",
-                "close": 0.00108789
-            },
+
             {
                 "symbol": "BAL/USD",
                 "close": 62.74721
             },
-            {
-                "symbol": "BAND/BTC",
-                "close": 0.00031722
-            },
-            {
-                "symbol": "BAND/EUR",
-                "close": 15.1759
-            },
-            {
-                "symbol": "BAND/GBP",
-                "close": 13.2447
-            },
+
             {
                 "symbol": "BAND/USD",
                 "close": 18.3143
             },
-            {
-                "symbol": "BAT/BTC",
-                "close": 2.24e-05
-            },
-            {
-                "symbol": "BAT/ETH",
-                "close": 0.00043708
-            },
-            {
-                "symbol": "BAT/EUR",
-                "close": 1.069
-            },
+
             {
                 "symbol": "BAT/USD",
                 "close": 1.288
@@ -144,44 +56,12 @@
                 "close": 1.288373
             },
             {
-                "symbol": "BCH/BTC",
-                "close": 0.0174
-            },
-            {
-                "symbol": "BCH/EUR",
-                "close": 833.39
-            },
-            {
-                "symbol": "BCH/GBP",
-                "close": 727.97
-            },
-            {
                 "symbol": "BCH/USD",
                 "close": 1003.73
             },
             {
-                "symbol": "BNT/BTC",
-                "close": 0.00012327
-            },
-            {
-                "symbol": "BNT/EUR",
-                "close": 5.9077
-            },
-            {
-                "symbol": "BNT/GBP",
-                "close": 5.1577
-            },
-            {
                 "symbol": "BNT/USD",
                 "close": 7.1166
-            },
-            {
-                "symbol": "BTC/EUR",
-                "close": 47848.42
-            },
-            {
-                "symbol": "BTC/GBP",
-                "close": 41794.96
             },
             {
                 "symbol": "BTC/USD",
@@ -192,504 +72,12 @@
                 "close": 57663.72
             },
             {
-                "symbol": "CELO/BTC",
-                "close": 9.267e-05
-            },
-            {
-                "symbol": "CELO/EUR",
-                "close": 4.4187
-            },
-            {
-                "symbol": "CELO/GBP",
-                "close": 3.8635
-            },
-            {
                 "symbol": "CELO/USD",
                 "close": 5.3349
             },
             {
-                "symbol": "COMP/BTC",
-                "close": 0.014297
-            },
-            {
                 "symbol": "COMP/USD",
                 "close": 829.17
-            },
-            {
-                "symbol": "CRV/BTC",
-                "close": 5.76e-05
-            },
-            {
-                "symbol": "CRV/EUR",
-                "close": 2.7559
-            },
-            {
-                "symbol": "CRV/GBP",
-                "close": 2.4074
-            },
-            {
-                "symbol": "CRV/USD",
-                "close": 3.3213
-            },
-            {
-                "symbol": "CVC/USDC",
-                "close": 0.530813
-            },
-            {
-                "symbol": "DAI/USD",
-                "close": 1.001721
-            },
-            {
-                "symbol": "DAI/USDC",
-                "close": 1.001477
-            },
-            {
-                "symbol": "DASH/BTC",
-                "close": 0.00551098
-            },
-            {
-                "symbol": "DASH/USD",
-                "close": 318.078
-            },
-            {
-                "symbol": "DNT/USDC",
-                "close": 0.341677
-            },
-            {
-                "symbol": "ENJ/BTC",
-                "close": 4.67e-05
-            },
-            {
-                "symbol": "ENJ/USD",
-                "close": 2.692
-            },
-            {
-                "symbol": "EOS/BTC",
-                "close": 0.000115
-            },
-            {
-                "symbol": "EOS/EUR",
-                "close": 5.523
-            },
-            {
-                "symbol": "EOS/USD",
-                "close": 6.665
-            },
-            {
-                "symbol": "ETC/BTC",
-                "close": 0.000786
-            },
-            {
-                "symbol": "ETC/EUR",
-                "close": 37.488
-            },
-            {
-                "symbol": "ETC/GBP",
-                "close": 32.852
-            },
-            {
-                "symbol": "ETC/USD",
-                "close": 45.336
-            },
-            {
-                "symbol": "ETH/BTC",
-                "close": 0.05116
-            },
-            {
-                "symbol": "ETH/DAI",
-                "close": 2947.92
-            },
-            {
-                "symbol": "ETH/EUR",
-                "close": 2447.75
-            },
-            {
-                "symbol": "ETH/GBP",
-                "close": 2138.5
-            },
-            {
-                "symbol": "ETH/USD",
-                "close": 2950.52
-            },
-            {
-                "symbol": "ETH/USDC",
-                "close": 2949.87
-            },
-            {
-                "symbol": "FIL/BTC",
-                "close": 0.00286301
-            },
-            {
-                "symbol": "FIL/EUR",
-                "close": 136.6675
-            },
-            {
-                "symbol": "FIL/GBP",
-                "close": 119.4455
-            },
-            {
-                "symbol": "FIL/USD",
-                "close": 165.2889
-            },
-            {
-                "symbol": "FORTH/BTC",
-                "close": 0.0007421
-            },
-            {
-                "symbol": "FORTH/EUR",
-                "close": 35.472
-            },
-            {
-                "symbol": "FORTH/GBP",
-                "close": 31.0
-            },
-            {
-                "symbol": "FORTH/USD",
-                "close": 42.776
-            },
-            {
-                "symbol": "GNT/USDC",
-                "close": 0.461137
-            },
-            {
-                "symbol": "GRT/BTC",
-                "close": 2.86e-05
-            },
-            {
-                "symbol": "GRT/EUR",
-                "close": 1.3695
-            },
-            {
-                "symbol": "GRT/GBP",
-                "close": 1.1931
-            },
-            {
-                "symbol": "GRT/USD",
-                "close": 1.6495
-            },
-            {
-                "symbol": "KNC/BTC",
-                "close": 5.72e-05
-            },
-            {
-                "symbol": "KNC/USD",
-                "close": 3.2931
-            },
-            {
-                "symbol": "LINK/BTC",
-                "close": 0.00071784
-            },
-            {
-                "symbol": "LINK/ETH",
-                "close": 0.01401414
-            },
-            {
-                "symbol": "LINK/EUR",
-                "close": 34.31049
-            },
-            {
-                "symbol": "LINK/GBP",
-                "close": 29.92307
-            },
-            {
-                "symbol": "LINK/USD",
-                "close": 41.44866
-            },
-            {
-                "symbol": "LOOM/USDC",
-                "close": 0.157876
-            },
-            {
-                "symbol": "LRC/BTC",
-                "close": 1.023e-05
-            },
-            {
-                "symbol": "LRC/USD",
-                "close": 0.5903
-            },
-            {
-                "symbol": "LTC/BTC",
-                "close": 0.004785
-            },
-            {
-                "symbol": "LTC/EUR",
-                "close": 229.14
-            },
-            {
-                "symbol": "LTC/GBP",
-                "close": 200.22
-            },
-            {
-                "symbol": "LTC/USD",
-                "close": 276.67
-            },
-            {
-                "symbol": "MANA/BTC",
-                "close": 2.5e-05
-            },
-            {
-                "symbol": "MANA/ETH",
-                "close": 0.000489
-            },
-            {
-                "symbol": "MANA/EUR",
-                "close": 1.197
-            },
-            {
-                "symbol": "MANA/USD",
-                "close": 1.445
-            },
-            {
-                "symbol": "MANA/USDC",
-                "close": 1.442262
-            },
-            {
-                "symbol": "MATIC/BTC",
-                "close": 1.378e-05
-            },
-            {
-                "symbol": "MATIC/EUR",
-                "close": 0.6585
-            },
-            {
-                "symbol": "MATIC/GBP",
-                "close": 0.5756
-            },
-            {
-                "symbol": "MATIC/USD",
-                "close": 0.7943
-            },
-            {
-                "symbol": "MKR/BTC",
-                "close": 0.08176
-            },
-            {
-                "symbol": "MKR/USD",
-                "close": 4711.7965
-            },
-            {
-                "symbol": "NKN/BTC",
-                "close": 1.32e-05
-            },
-            {
-                "symbol": "NKN/USD",
-                "close": 0.763
-            },
-            {
-                "symbol": "NMR/BTC",
-                "close": 0.00117538
-            },
-            {
-                "symbol": "NMR/EUR",
-                "close": 56.3492
-            },
-            {
-                "symbol": "NMR/GBP",
-                "close": 49.2369
-            },
-            {
-                "symbol": "NMR/USD",
-                "close": 67.8786
-            },
-            {
-                "symbol": "NU/BTC",
-                "close": 8.94e-06
-            },
-            {
-                "symbol": "NU/EUR",
-                "close": 0.4279
-            },
-            {
-                "symbol": "NU/GBP",
-                "close": 0.3713
-            },
-            {
-                "symbol": "NU/USD",
-                "close": 0.5174
-            },
-            {
-                "symbol": "OGN/BTC",
-                "close": 3.18e-05
-            },
-            {
-                "symbol": "OGN/USD",
-                "close": 1.832
-            },
-            {
-                "symbol": "OMG/BTC",
-                "close": 0.0001403
-            },
-            {
-                "symbol": "OMG/EUR",
-                "close": 6.7201
-            },
-            {
-                "symbol": "OMG/GBP",
-                "close": 5.8633
-            },
-            {
-                "symbol": "OMG/USD",
-                "close": 8.0994
-            },
-            {
-                "symbol": "OXT/USD",
-                "close": 0.6901
-            },
-            {
-                "symbol": "REN/BTC",
-                "close": 1.703e-05
-            },
-            {
-                "symbol": "REN/USD",
-                "close": 0.9819
-            },
-            {
-                "symbol": "REP/BTC",
-                "close": 0.000743
-            },
-            {
-                "symbol": "REP/USD",
-                "close": 42.88
-            },
-            {
-                "symbol": "SKL/BTC",
-                "close": 1.114e-05
-            },
-            {
-                "symbol": "SKL/EUR",
-                "close": 0.533
-            },
-            {
-                "symbol": "SKL/GBP",
-                "close": 0.466
-            },
-            {
-                "symbol": "SKL/USD",
-                "close": 0.6433
-            },
-            {
-                "symbol": "SNX/BTC",
-                "close": 0.00031695
-            },
-            {
-                "symbol": "SNX/EUR",
-                "close": 15.1862
-            },
-            {
-                "symbol": "SNX/GBP",
-                "close": 13.2603
-            },
-            {
-                "symbol": "SNX/USD",
-                "close": 18.3051
-            },
-            {
-                "symbol": "STORJ/BTC",
-                "close": 3.718e-05
-            },
-            {
-                "symbol": "STORJ/USD",
-                "close": 2.1421
-            },
-            {
-                "symbol": "SUSHI/BTC",
-                "close": 0.00025567
-            },
-            {
-                "symbol": "SUSHI/ETH",
-                "close": 0.005
-            },
-            {
-                "symbol": "SUSHI/EUR",
-                "close": 12.256
-            },
-            {
-                "symbol": "SUSHI/GBP",
-                "close": 10.67
-            },
-            {
-                "symbol": "SUSHI/USD",
-                "close": 14.78
-            },
-            {
-                "symbol": "UMA/BTC",
-                "close": 0.0004637
-            },
-            {
-                "symbol": "UMA/EUR",
-                "close": 22.158
-            },
-            {
-                "symbol": "UMA/GBP",
-                "close": 19.315
-            },
-            {
-                "symbol": "UMA/USD",
-                "close": 26.72
-            },
-            {
-                "symbol": "UNI/BTC",
-                "close": 0.00069729
-            },
-            {
-                "symbol": "UNI/USD",
-                "close": 40.2482
-            },
-            {
-                "symbol": "USDC/EUR",
-                "close": 0.829
-            },
-            {
-                "symbol": "USDC/GBP",
-                "close": 0.725
-            },
-            {
-                "symbol": "WBTC/BTC",
-                "close": 1.0002
-            },
-            {
-                "symbol": "WBTC/USD",
-                "close": 57669.87
-            },
-            {
-                "symbol": "XLM/BTC",
-                "close": 9.34e-06
-            },
-            {
-                "symbol": "XLM/EUR",
-                "close": 0.446685
-            },
-            {
-                "symbol": "XLM/USD",
-                "close": 0.538797
-            },
-            {
-                "symbol": "XTZ/BTC",
-                "close": 0.00010088
-            },
-            {
-                "symbol": "XTZ/EUR",
-                "close": 4.8118
-            },
-            {
-                "symbol": "XTZ/GBP",
-                "close": 4.20988
-            },
-            {
-                "symbol": "XTZ/USD",
-                "close": 5.8054
-            },
-            {
-                "symbol": "YFI/BTC",
-                "close": 0.85373
-            },
-            {
-                "symbol": "YFI/USD",
-                "close": 49271.15
-            },
-            {
-                "symbol": "ZEC/BTC",
-                "close": 0.004432
             },
             {
                 "symbol": "ZEC/USD",
@@ -698,14 +86,6 @@
             {
                 "symbol": "ZEC/USDC",
                 "close": 256.06
-            },
-            {
-                "symbol": "ZRX/BTC",
-                "close": 3.338e-05
-            },
-            {
-                "symbol": "ZRX/EUR",
-                "close": 1.597873
             },
             {
                 "symbol": "ZRX/USD",

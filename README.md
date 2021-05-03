@@ -45,7 +45,10 @@ crypto trading tasks: (not all have been implemented)
 
 ### broker ###
 > Functions that interact with your wallet and portfolio.
-  Initiate buy / sell for a coin or view portfolio data.
+  Initiate buy / sell for a coin or view portfolio data. The default broker is 
+  a paper broker which uses the file `paper_portfolio.json` to store its 
+  assets. The paper broker is used to test strategies and will not use any real
+  money.
 
 ### run ###
 > Run a strategy on a live feed. Select your strategy source
@@ -89,6 +92,20 @@ crypt-bot exchanges --size-limit 50 --outfile small_exchanges.json
 
 
 ## TODO ##
-* add volatility to exchange output
-* implement live feed testing
-* implement backtester
+* Add `run` command to bot. Params:
+  * asset file
+  * strategy class
+
+* fully implement paper broker and paper portfolio (JSON file on disk).
+
+* for command `exchanges`, add a flag --no-assets, which will force the bot to
+  just return the size attribute of the exchanges, rather than probe the coins.
+
+* for command `exchanges`, fetch only USD pairs
+
+* for command `exchanges`, size parameter is total number of pairs retrieved,
+  not total size of the exchange.
+
+* For live trading with real wallet, need to determine:
+  * how long does a BUY order take to complete? Instant?
+  * how long does a SELL order take to complete? Instant?

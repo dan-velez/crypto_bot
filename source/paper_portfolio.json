@@ -1,0 +1,11 @@
+{
+    "total": 0,
+    "assets": [
+        {
+            "exchange": "coinbasepro",
+            "pair": "USD/BTC",
+            "buy_price": 0.005,
+            "buy_date": "20210501:01:00"
+        }
+    ]
+}
