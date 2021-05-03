@@ -88,6 +88,9 @@ crypto-bot exchanges --list "coinbase, kraken" --outfile coinbase_kraken.json
 
 # Get exchanges that only contain less than 50 assets available.
 crypt-bot exchanges --size-limit 50 --outfile small_exchanges.json
+
+# Run live ticker feed with a list of assets generated from exchanges command.
+crypto-bot run --assets .\data\coins_coinbasepro.json
 ```
 
 

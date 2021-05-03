@@ -34,7 +34,8 @@ class CryptoLiveFeed:
                     # Get latest price on asset.
                     vlatest_bars = vexchanges[vex['name']].fetch_ohlcv(
                         vcoin['symbol'])
-                    print("[* LiveFeed] Bars available: %s" % len(vlatest_bars))
+                    vlatest_price = vlatest_bars[-1]
+                    print(vlatest_price)
 
                     # Run strategy here.
                     if self.broker.is_open(vcoin['symbol']):

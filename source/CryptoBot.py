@@ -2,9 +2,13 @@
 
 import sys
 import argparse
+import json
+
+from termcolor import colored
 
 from CryptoExchanges import CryptoExchanges
 from CryptoCoins import CryptoCoins
+from CryptoLiveFeed import CryptoLiveFeed
 
 
 class CryptoBot:
@@ -16,6 +20,7 @@ class CryptoBot:
     # Sub command objects
     vexchanges = CryptoExchanges()
     vcoins = CryptoCoins()
+    vfeed = None
 
 
     def run_cli (self):
@@ -69,6 +74,21 @@ class CryptoBot:
             required=False,
             help='Optionally output data as JSON to a file.')
 
+        ## Run #################################################################
+        # Run LiveFeed with an assets list and strategy class.
+        vparser_backtest = subparsers.add_parser(
+            'run', 
+            help='Run live ticker feed on an assets list '
+                 +'with a strategy class.')
+
+        vparser_backtest.add_argument(
+            '-a',
+            '--assets', 
+            help='A list of assets to run the live ticker feed on. Should be '+ 
+                 'a JSON file generated with the exchanges command.',
+            required=True,
+            type=str)
+
         ## Coins ###############################################################
         # Use coins to further probe exchange prices.
         # Can input certain filters.
@@ -100,27 +120,39 @@ class CryptoBot:
         try:
             # Run command.
             if vargs.command ==   "exchanges": self.run_command_exchanges(vargs)
+            elif vargs.command == "run": self.run_command_run(vargs)
             elif vargs.command == "coins": pass
-            elif vargs.command == "history": pass
             elif vargs.command == "backtest": pass
             elif vargs.command == "broker": pass
-            elif vargs.command == "run": pass
             else: parser.print_help(sys.stderr)
 
         except KeyboardInterrupt:
-            print("\n[* CryptoBot] Exiting. Goodbye!")
+            print("\n[* Bot] Exiting. Goodbye!")
             sys.exit(1)
 
     ## Sub commands ############################################################
 
-    def run_command_coins (self, vargs):
-        return
+    def run_command_run (self, vargs):
+        """Run the live ticker feed on an assets list and strategy class."""
+        
+        print("[* Bot] Run live ticker feed and strategy...\n")
+        try:
+            vassets = json.loads(open(vargs.assets, 'r').read())
+        except:
+            print(colored("[* Bot] Invalid assets file!", 'red'))
+            sys.exit(1)
+        
+        # TEMP: Use default strategy and broker
+        from CryptoStrategy import CryptoStrategy
+        from CryptoBroker import CryptoBroker
+        self.feed = CryptoLiveFeed(
+            assets=vassets, strategy=CryptoStrategy(), broker=CryptoBroker())
+        self.feed.run(vinterval=3)
 
     def run_command_exchanges (self, vargs):
         """Run the exchanges command with user input arguments."""
 
-        print("[* CryptoBot] Get exchange data...")
-        print()
+        print("[* Bot] Get assets list...\n")
 
         # Parse input list
         if not vargs.list is None:
