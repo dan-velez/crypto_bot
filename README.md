@@ -7,9 +7,14 @@ wallet.
 
 
 ## installation ##
-* Install `Python 3.6` (not tested on any other Python versions).
-* Install requirements file with 
-  `pip install -r requirements.txt`
+Requires `python >= 3.6`. Installation involves cloning the repo to your local
+disk, then running the `setup.py` script.
+```
+$ git clone https://github.com/dan-velez/crypto_bot
+$ cd crypto_bot
+$ python setup.py install
+```
+This will expose the command `crypto_bot.exe` to your terminal.
 
 
 ## settings ##
