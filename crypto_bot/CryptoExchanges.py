@@ -7,7 +7,7 @@ import time
 import ccxt
 from termcolor import colored
 
-from CryptoCoins import CryptoCoins
+from crypto_bot.CryptoCoins import CryptoCoins
 
 
 class CryptoExchanges:
@@ -16,6 +16,11 @@ class CryptoExchanges:
 
     # Use the coins object to get OHLCV data of assets.
     vcoins = CryptoCoins()
+
+    def __init__ (self):
+        """Testing class change."""
+        # print("[* Exchanges] Init!")
+        pass
 
     def exchange_size (self, vex):
         """Gets the total number of assets in an exchange."""

@@ -7,8 +7,8 @@ import json
 from termcolor import colored
 
 from crypto_bot.CryptoExchanges import CryptoExchanges
-from CryptoCoins import CryptoCoins
-from CryptoLiveFeed import CryptoLiveFeed
+from crypto_bot.CryptoCoins import CryptoCoins
+from crypto_bot.CryptoLiveFeed import CryptoLiveFeed
 
 
 class CryptoBot:
@@ -151,9 +151,10 @@ class CryptoBot:
             print(colored("[* Bot] Invalid assets file!", 'red'))
             sys.exit(1)
         
-        # TEMP: Use default strategy and broker
-        from CryptoStrategy import CryptoStrategy
-        from CryptoBroker import CryptoBroker
+        ## TEMP: Use default strategy and broker ##
+        from crypto_bot.CryptoStrategy import CryptoStrategy
+        from crypto_bot.CryptoBroker import CryptoBroker
+        ###########################################
         self.feed = CryptoLiveFeed(
             assets=vassets, strategy=CryptoStrategy(), broker=CryptoBroker())
         self.feed.run(vinterval=vargs.interval)
@@ -182,6 +183,11 @@ class CryptoBot:
                 vprint=True)
 
 
+def main ():
+    """Entry point for CLI in setup script."""
+    CryptoBot().run_cli()
+
+
 if __name__ == "__main__":
     # Instantiate new CryptoBot and run its CLI.
-    CryptoBot().run_cli()
+    main()

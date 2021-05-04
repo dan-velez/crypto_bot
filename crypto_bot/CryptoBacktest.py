@@ -4,7 +4,7 @@ import json
 
 from termcolor import colored
 
-from crypto_broker import is_open
+from crypto_bot.CryptoBroker import CryptoBroker
 
 
 class CryptoBacktest:
