@@ -6,7 +6,7 @@ import json
 
 from termcolor import colored
 
-from CryptoExchanges import CryptoExchanges
+from crypto_bot.CryptoExchanges import CryptoExchanges
 from CryptoCoins import CryptoCoins
 from CryptoLiveFeed import CryptoLiveFeed
 
