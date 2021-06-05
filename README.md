@@ -1,4 +1,5 @@
 # crypto-bot #
+
 **crypto-bot** is a swiss army knife for crypto trading. It is
 used to probe coin and exchange data, download historical 
 market data and backtest strategies on this data. It will
@@ -6,7 +7,14 @@ also be able to live test these strategies using a real crypto
 wallet.
 
 
-## installation ##
+## Installation ##
+Use `pip` to install directly from github:
+```bash
+$ pip install git+https://github.com/dan-velez/crypto_bot.git
+```
+The command `crypto-bot` will be available in your environment.
+
+## From Source ##
 Requires `python >= 3.6`. Installation involves cloning the repo to your local
 disk, then running the `setup.py` script.
 ```
@@ -17,7 +25,7 @@ $ python setup.py install
 This will expose the command `crypto_bot.exe` to your terminal.
 
 
-## settings ##
+## Settings ##
 The file `.crypto.json` cotains some configuration for the bot.
 This file is sensitive and specific to each trader. This should
 be created manually. It should contain the following keys:
@@ -29,7 +37,7 @@ be created manually. It should contain the following keys:
     * `cb-passphrase` - Coinbase API passphrase.`
 
 
-## usage ##
+## Usage ##
 **crypto-bot** contains several commands for automating 
 crypto trading tasks: (not all have been implemented)
 
@@ -60,7 +68,7 @@ crypto trading tasks: (not all have been implemented)
 > Run a strategy on a live feed. Select your strategy source
   file. The wallet set in the settings file will be used.
 
-### help message ###
+### Help Message ###
 ```
 usage: crypto-bot [-h] {exchanges,coins,backtest} ...
 
@@ -80,7 +88,7 @@ crypto-bot <command> -h displays help on a particular command.
 ```
 
 
-## examples ##
+## Examples ##
 ```bash
 # Get a list of all exchanges and all coins available in each.
 # Should print the latest bar for each coin.
@@ -104,7 +112,7 @@ crypto-bot run --assets .\data\coins_coinbasepro.json
 crypto-bot history --exchange "coinbasepro" --symbol "BTC/USD" --start 20210101 --end 20210501 --timeframe '1m'
 ```
 
-## paper broker ##
+## Paper Broker ##
 The paper broker will mimic a wallet/exchange/bank that is used to store your
 assets. It is a JSON file that is saved to the disk and is in the following
 format:
@@ -135,7 +143,7 @@ format:
 ```
 
 
-## bot woorkflow ##
+## Bot Workflow ##
 * use the bot to  select assets with the `exchange` command
     * print out to assets list
 
